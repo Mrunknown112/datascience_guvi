@@ -1,0 +1,811 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Data Science &amp; Gen AI Program – HCL GUVI × IITM Pravartak</title>
+<meta name="description" content="Master Data Science, ML, Deep Learning and Gen AI in a 6-month online program by HCL GUVI, certified by IITM Pravartak. Live classes in English, Tamil and Hindi.">
+<meta name="theme-color" content="#000000">
+<meta property="og:title" content="Data Science &amp; Gen AI Program – HCL GUVI × IITM Pravartak">
+<meta property="og:description" content="Master Data Science, ML, Deep Learning and Gen AI in a 6-month online program by HCL GUVI, certified by IITM Pravartak. Live classes in English, Tamil and Hindi.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='16' fill='%2300c853'/%3E%3Ccircle cx='16' cy='16' r='6' fill='%23fff'/%3E%3C/svg%3E">
+<link rel="preload" href="assets/fonts/jones-700.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/wantedsans-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/wantedsans-600.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" as="image" href="assets/2a8bddc724.webp" media="(min-width:701px)" fetchpriority="high">
+<style>
+:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}
+/* ---- section 10: trust of HCL group ---- */
+.s10{position:relative;overflow:hidden;height:613px;background:#000;border-bottom:1px solid var(--line)}
+.s10::before,.s10::after{content:"";position:absolute;top:0;bottom:0;width:1px;background:var(--line);z-index:4}
+.s10::before{left:max(0px,calc(50% - 600px))}.s10::after{right:max(0px,calc(50% - 600px))}
+.s10-img{position:absolute;left:50%;top:115px;width:min(1199px,100%);height:495px;transform:translateX(-50%);overflow:hidden}
+.s10-img img{position:absolute;left:-15.52%;top:-6.95%;width:115.55%;height:157.5%;max-width:none;display:block}
+.s10-top{position:absolute;left:0;right:0;top:53px;height:214px;z-index:1;background:linear-gradient(180deg,#000 8.65%,rgba(0,0,0,0) 100%)}
+.s10-bot{position:absolute;left:0;right:0;top:434px;height:179px;z-index:1;background:linear-gradient(0deg,#000 8.65%,rgba(0,0,0,.86) 44%,rgba(0,0,0,0) 100%)}
+.s10 .s2-head{position:absolute;left:0;right:0;top:80px;z-index:3;padding:0;gap:10px}
+.s10 .s2-head p{font-size:16px}
+.s10-txt{position:absolute;left:0;right:0;bottom:8px;z-index:3;display:flex;flex-direction:column;align-items:center;padding:0 20px;text-align:center}
+.s10-txt b{display:block;font:700 24px/24px var(--display);color:#fff}
+.s10-txt span{display:block;margin-top:6px;font:500 12px/14px var(--display);color:#fff;opacity:.79}
+.s10-txt p{margin:24px 0 0;max-width:671px;font:400 16px/22px var(--display);color:rgba(255,255,255,.9)}
+@media (max-width:700px){
+  .s10{height:540px}
+  .s10::before,.s10::after{display:none}
+  .s10-img{height:400px;top:140px}
+  .s10-top{top:60px}.s10-bot{top:360px;height:180px}
+}
+
+/* ---- mobile hero ---- */
+.mh,.burger,.mmenu{display:none}
+@media (max-width:700px){
+  .hero{display:none}
+  #topbar{height:56px;margin-bottom:-56px}
+  #topbar nav{height:56px}
+  #topbar .logo-svg{width:132px;height:24px}
+  #topbar .cta{display:none}
+  .burger{display:flex;flex-direction:column;justify-content:center;gap:6px;margin-left:auto;width:44px;height:44px;padding:0 9px;border:0;background:none;cursor:pointer}
+  .burger span{display:block;height:2px;border-radius:2px;background:#fff;transition:transform .2s,opacity .2s}
+  .burger[aria-expanded=true] span:nth-child(1){transform:translateY(8px) rotate(45deg)}
+  .burger[aria-expanded=true] span:nth-child(2){opacity:0}
+  .burger[aria-expanded=true] span:nth-child(3){transform:translateY(-8px) rotate(-45deg)}
+  .burger:focus-visible,.mmenu a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+  .mmenu{position:absolute;left:0;right:0;top:100%;background:#000;border-bottom:1px solid rgba(199,199,199,.16);padding:8px 20px 20px}
+  .mmenu:not([hidden]){display:flex;flex-direction:column}
+  .mmenu a{padding:14px 0;border-bottom:1px solid rgba(199,199,199,.09);font:500 14px/20px var(--body);letter-spacing:.25px;text-transform:uppercase;color:#fff;text-decoration:none}
+  .mmenu a.mm-cta{margin-top:16px;border:0;border-radius:6px;background:#F1F2F3;color:#000;text-align:center;text-transform:none;font-size:14px;padding:12px 0}
+  .mh{display:flex;flex-direction:column;position:relative;overflow:hidden;padding-top:96px;background:#000}
+  .mh-in{position:relative;z-index:2;display:flex;flex-direction:column;align-items:center;padding:0 20px;text-align:center}
+  .mh-eb{margin:0;font:600 12px/16px var(--body);letter-spacing:.06em;text-transform:uppercase;color:#687382}
+  .mh .mh-h1{margin:15px 0 0;width:279px;max-width:100%;font:700 36px/1.1 var(--display);letter-spacing:-.02em;background:linear-gradient(101deg,#fff 30.78%,#086FDD 98.41%);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+  .mh-sub{margin:6px 0 0;width:269px;max-width:100%;font:400 14px/22px var(--body);color:#687382}
+  .mh-row{margin-top:44px;display:flex;gap:36px;font:700 14px/28px var(--display);color:#fff}
+  .mh-lang{margin-top:11px;color:#fff}
+  .mh-lang b{display:block;font:700 14px/20px var(--display)}
+  .mh-lang span{display:block;font:400 12px/22px var(--body);color:#687382}
+  .mh-btns{margin-top:29px;width:min(284px,100%);display:flex;flex-direction:column;gap:12px}
+  .mh-btns a{display:flex;align-items:center;justify-content:center;height:44px;border-radius:6px;font:500 14px/1.5 var(--body);text-decoration:none}
+  .mh-btns .b1{background:#F1F2F3;color:#000}
+  .mh-btns .b2{border:1px solid #3D444B;color:#fff;font-size:16px}
+  .mh-btns .b3{color:#fff;text-decoration:underline}
+  .mh-btns a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+  .mh-vis{position:relative;z-index:1;width:min(100%,460px);margin:-193px auto 0;aspect-ratio:720/998;background:#000}
+  .mh-vis>img{position:absolute;inset:0;width:100%;height:100%;display:block}
+  .mh-st{position:absolute;left:0;right:0;bottom:7.4%;display:flex;justify-content:center}
+  .mh-st div{width:156px;text-align:center}
+  .mh-st b{display:block;font:700 16px/20px var(--display);color:#fff}
+  .mh-st span{display:block;font:400 12px/22px var(--body);color:#A6B1C1}
+}
+@media (min-width:461px) and (max-width:700px){
+  .mh-vis{-webkit-mask-image:linear-gradient(90deg,transparent,#000 12%,#000 88%,transparent);mask-image:linear-gradient(90deg,transparent,#000 12%,#000 88%,transparent)}
+}
+
+
+@font-face{font-family:'Wanted Sans';font-style:normal;font-weight:400;font-display:swap;src:url(assets/fonts/wantedsans-400.woff2) format('woff2')}
+@font-face{font-family:'Wanted Sans';font-style:normal;font-weight:500;font-display:swap;src:url(assets/fonts/wantedsans-500.woff2) format('woff2')}
+@font-face{font-family:'Wanted Sans';font-style:normal;font-weight:600;font-display:swap;src:url(assets/fonts/wantedsans-600.woff2) format('woff2')}
+@font-face{font-family:'Jones';font-style:normal;font-weight:400;font-display:swap;src:url(assets/fonts/jones-400.woff2) format('woff2')}
+@font-face{font-family:'Jones';font-style:normal;font-weight:500;font-display:swap;src:url(assets/fonts/jones-500.woff2) format('woff2')}
+@font-face{font-family:'Jones';font-style:normal;font-weight:700;font-display:swap;src:url(assets/fonts/jones-700.woff2) format('woff2')}
+:root{
+  --bg-top:#000; --bg-bot:#0B1019; --text:#fff; --muted:rgba(255,255,255,.7);
+  --eyebrow:#687382; --line:rgba(199,199,199,.09); --border:#3D444B; --btn:#F1F2F3; --btn-ink:#000;
+  --accent:#1476DF;
+  --body:'Wanted Sans','Inter',system-ui,sans-serif;
+  --display:'Jones','Sora','Inter',system-ui,sans-serif;
+  box-sizing:border-box; color-scheme:dark;
+  padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px);
+}
+html{scroll-behavior:smooth;scroll-padding-top:94px;height:100%}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;min-height:100%;background:#000;color:var(--text);font-family:var(--body)}
+.topbar{position:sticky;top:0;z-index:100;height:94px;margin-bottom:-94px;background:transparent;border-bottom:1px solid transparent;transition:background .2s,border-color .2s}
+.hero::before,.hero::after,.topbar::before,.topbar::after{content:"";position:absolute;top:0;bottom:0;width:1px;background:var(--line);pointer-events:none;z-index:1}
+.hero::before,.topbar::before{left:max(0px,calc(50% - 600px))}.hero::after,.topbar::after{right:max(0px,calc(50% - 600px))}
+@media (max-width:900px){.hero::before,.hero::after,.topbar::before,.topbar::after{display:none}}
+.topbar.stuck{background:#000;border-bottom-color:rgba(199,199,199,.09)}
+.hero{padding-top:94px;position:relative;min-height:894px;overflow:hidden;background:#000 url(assets/2a8bddc724.webp) no-repeat right center/cover}
+.wrap{position:relative;max-width:1200px;margin:0 auto;padding:0 40px}
+/* nav */
+nav{display:flex;align-items:center;gap:clamp(16px,5.4vw,78px);height:94px}
+.logo{display:block;flex:none;line-height:0}
+.logo-svg{display:block;width:172px;height:31px;max-width:100%}
+.links{display:flex;gap:clamp(0px,.5vw,8px);flex:1;min-width:0}
+.links a{white-space:nowrap;padding:8px clamp(6px,1vw,12px);border-radius:8px;font-size:12px;line-height:18px;letter-spacing:.25px;text-transform:uppercase;color:#fff;text-decoration:none}
+.links a:hover{background:rgba(255,255,255,.08)}
+.cta{display:flex;gap:clamp(10px,1.4vw,20px);flex:none}
+.btn{white-space:nowrap;display:inline-flex;align-items:center;justify-content:center;gap:6px;height:44px;padding:8px 20px;border-radius:6px;font:500 14px/1.5 var(--body);text-decoration:none;cursor:pointer;border:1px solid transparent}
+.btn.fill{background:var(--btn);color:var(--btn-ink)}
+.btn.out{border-color:var(--border);color:#fff;font-size:16px}
+.btn.txt{padding:8px;color:#fff;text-decoration:underline}
+.btn:focus-visible,.links a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.btn svg{width:16px;height:16px}
+/* hero content */
+.content{padding:121px 0 0 70px;max-width:760px;position:relative;z-index:2}
+.eyebrow{margin:0 0 20px;font:600 14px/1.3 var(--body);letter-spacing:.06em;text-transform:uppercase;color:var(--eyebrow)}
+h1{margin:0 0 20px;max-width:520px;font:500 clamp(38px,5vw,60px)/1.1 var(--display);letter-spacing:-.02em;
+  background:linear-gradient(94deg,#fff -16%,#fff 48%,rgba(20,118,223,.93) 116%);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.sub{margin:0 0 40px;max-width:400px;font-size:16px;line-height:22px;color:var(--muted)}
+.actions{display:flex;align-items:center;gap:16px;flex-wrap:wrap}
+.actions .btn.out{font-size:16px;font-weight:500}
+@media (max-width:560px){.actions .cta-hide{display:none}.cta .out{display:none}.actions .btn.out{display:inline-flex}}
+.stats{display:flex;align-items:center;margin:60px 0 0 -28px;font:500 20px/28px var(--display);flex-wrap:wrap}
+.stats span{padding:0 28px;white-space:nowrap}
+.stats span+span{border-left:1px solid var(--line)}
+.stats .two{line-height:20px}
+.stats small{display:block;margin-top:4px;font:400 12px/16px var(--body);color:#98A4AE}
+@media (max-width:1100px){.links{display:none}.cta{margin-left:auto}}
+@media (max-width:900px){
+  .links{display:none}.cta{margin-left:auto}
+  nav{gap:16px}
+  .content{padding:60px 0 0 0}
+  .hero{background-position:70% center}
+  .stats{margin-left:-20px}.stats span{padding:0 20px}
+}
+@media (max-width:560px){
+  .cta .out{display:none}
+  .wrap{padding:0 20px}
+  .stats{font-size:16px;line-height:24px}
+}
+
+/* ---- section 2 ---- */
+.s2{position:relative;background:#000;padding:74px 20px 82px;--ink:#0A0F14}
+.s2::before,.s2::after{content:"";position:absolute;top:0;bottom:0;width:1px;background:var(--line)}
+.s2::before{left:max(0px,calc(50% - 600px))}.s2::after{right:max(0px,calc(50% - 600px))}
+.s2-head{display:flex;flex-direction:column;align-items:center;gap:16px;text-align:center;padding-bottom:50px}
+.s2-head p{margin:0;font:600 16px/1.3 var(--body);letter-spacing:.06em;text-transform:uppercase;color:var(--eyebrow)}
+.s2-head h2{margin:0;font:700 44px/48px var(--display);letter-spacing:-1px;
+  background:linear-gradient(98deg,#fff 36%,#C0C5CE 77%);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.band{max-width:1200px;margin:0 auto;border-top:1px solid var(--line);border-bottom:1px solid var(--line);display:flex;justify-content:center}
+.cards{display:flex;gap:20px;width:991px;max-width:100%}
+.ceo{position:relative;flex:0 0 497px;height:623px;border:solid #282828;border-width:0 1px;overflow:hidden;
+  background:#06080E url(assets/2fd4a4b48f.webp) center top/cover no-repeat}
+.ceo::before{content:"";position:absolute;left:0;right:0;top:250px;bottom:0;background:linear-gradient(180deg,rgba(6,8,14,0),rgba(6,8,14,.55) 25%,#06080E 52%,#06080E 100%)}
+.ceo::after{content:"";position:absolute;left:0;right:0;top:0;height:87px;background:linear-gradient(0deg,rgba(6,8,14,0),#06080E)}
+.ceo .dash{position:absolute;z-index:1;top:452px;left:50%;width:min(416px,86%);transform:translateX(-50%);border-top:1px dashed #262A2F}
+.ceo .who{position:absolute;z-index:1;top:466px;left:0;right:0;padding:0 33px;text-align:center}
+.who b{display:block;font:700 24.7px/38px var(--display);color:#fff}
+.who span{display:block;font:400 19px/38px var(--body);color:#fff}
+.who p{margin:0 auto;max-width:431px;font:400 20px/32px var(--body);color:rgba(255,255,255,.73)}
+.lead{flex:1 1 474px;max-width:474px;background:#fff;padding:40px;display:flex;flex-direction:column;gap:10px;min-height:623px}
+.lead h3{margin:0;font:500 18px/1.3 var(--display);letter-spacing:-.01em;color:var(--ink)}
+.lead form{display:flex;flex-direction:column;gap:19px}
+.fields{display:grid;grid-template-columns:83px 1fr;gap:18px 12px}
+.fields>*{grid-column:1/-1}
+.fields>.cc{grid-column:1}.fields>.ph{grid-column:2}
+.lead input,.lead select,.cc{height:48px;width:100%;border:1px solid #EBEDF0;border-radius:6px;padding:0 16px;font:400 14px/1.4 var(--body);color:var(--ink);background:#fff;outline:0}
+.lead input::placeholder{color:#98A4AE}
+.lead select{appearance:none;-webkit-appearance:none;background:#fff url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18' fill='none' stroke='%23130F26' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M5 7.5l4 4 4-4'/%3E%3C/svg%3E") no-repeat right 14px center}
+.lead select:required:invalid{color:#98A4AE}
+.lead input:focus-visible,.lead select:focus-visible{border-color:#0A0A0A;box-shadow:0 0 0 2px rgba(20,118,223,.35)}
+.cc{display:flex;align-items:center;gap:3px;padding:0 12px}
+.flag{width:25px;height:19px;border-radius:2px;background:linear-gradient(#FF8C1A 33%,#F7FCFF 33% 66%,#5EAA22 66%);position:relative;flex:none}
+.flag::after{content:"";position:absolute;left:9px;top:6px;width:7px;height:7px;border-radius:50%;border:1.5px solid #3D58DB}
+.cc svg{width:16px;height:16px;margin-left:auto}
+.cpn{margin-top:-9px}
+.cpn-t{margin:0;text-align:center;font:400 14px/20px var(--body);color:#3D444B}
+.cpn-t button{background:none;border:0;padding:0;font:inherit;color:inherit;text-decoration:underline;cursor:pointer}
+.cpn-row{display:flex;align-items:center;height:48px;border:1px solid #EBEDF0;border-radius:6px;overflow:hidden;background:#fff}
+.cpn-row[hidden]{display:none}
+.lead .cpn-row input{flex:1;min-width:0;height:100%;border:0;border-radius:0;box-shadow:none}
+.cpn-x{background:none;border:0;padding:0 16px;font:500 14px/1 var(--body);color:#7C5CFF;cursor:pointer}
+.cpn-go{height:100%;padding:0 24px;border:0;background:#4B1FC9;color:#fff;font:600 14px/1 var(--body);cursor:pointer}
+.cpn-row:focus-within{border-color:#0A0A0A}
+.lead .consent{margin:12px 0 0;max-width:none;text-align:center}
+.lead .submit{font-weight:600}
+.submit{display:flex;align-items:center;justify-content:center;height:48px;padding:8px 20px;border-radius:6px;border:1.5px solid #313335;background:#0A0A0A;color:#FCFCFD;font:500 14px/1.5 var(--body);box-shadow:inset 0 3px 2px #636363;cursor:pointer;width:100%}
+.submit:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.consent{margin:12px 0 0;font:400 12px/1.414 var(--body);color:#98A4AE;max-width:288px}
+.metrics{display:flex;align-items:stretch;gap:0;width:991px;max-width:100%;margin:50px auto 0}
+.metrics div{padding:10px 20px;display:flex;flex-direction:column;gap:8px}
+.metrics div+div{border-left:1px solid var(--line);margin-left:18px;padding-left:38px}
+.metrics b{font:600 24px/24px var(--body);color:#fff}
+.metrics span{font:400 18px/24px var(--body);color:#687382}
+.s2-end{position:absolute;left:0;right:0;bottom:2px;height:1px;background:var(--line)}
+@media (max-width:900px){
+  .s2::before,.s2::after{display:none}
+  .cards{flex-direction:column;align-items:center;width:100%}
+  .ceo{flex:none;width:100%;max-width:497px}
+  .lead{flex:none;width:100%;max-width:497px;max-width:497px}
+  .metrics{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+  .metrics div+div{border-left:0;margin:0;padding:10px 20px}
+}
+
+/* ---- section 3 ---- */
+.s3{position:relative;overflow:hidden;background:linear-gradient(179.3deg,#000 45%,rgba(11,16,25,.7) 85%,#000);padding:74px 20px 46px}
+.s3::before,.s3::after{content:"";position:absolute;top:0;bottom:0;width:1px;background:var(--line);z-index:2}
+.s3::before{left:max(0px,calc(50% - 600px))}.s3::after{right:max(0px,calc(50% - 600px))}
+.s3-glow{position:absolute;width:470px;height:357px;left:calc(50% - 818px);top:50%;background:rgba(0,64,134,.2);filter:blur(200px);pointer-events:none}
+.s3 .s2-head{position:relative;z-index:1}
+.s3 .s2-head p{font-size:18px}
+.car{position:relative;z-index:1;max-width:1200px;margin:0 auto}
+.car::before,.car::after{content:"";position:absolute;top:0;bottom:0;width:120px;z-index:3;pointer-events:none}
+.car::before{left:0;background:linear-gradient(90deg,#010203,rgba(1,2,3,0))}
+.car::after{right:0;background:linear-gradient(270deg,#010203,rgba(1,2,3,0))}
+.track{display:flex;gap:14px;padding:0 120px;overflow-x:auto;scroll-snap-type:x mandatory;scroll-padding:0 120px;scrollbar-width:none;scroll-behavior:smooth}
+.track::-webkit-scrollbar{display:none}
+.sc{flex:none;width:284px;height:377px;padding:1px;border-radius:8px;background:rgba(167,181,199,.07);scroll-snap-align:start}
+.sc .in{position:relative;height:100%;border-radius:8px;overflow:hidden;background:linear-gradient(180deg,#1C1C1C,#000)}
+.pic{position:absolute;left:0;top:0;width:100%;height:250px}
+.pic img{display:block;width:100%;height:100%;object-fit:cover;border-radius:8px}
+.pic::after{content:"";position:absolute;left:0;right:0;bottom:0;height:65px;background:linear-gradient(180deg,rgba(0,0,0,0),#080808)}
+.ph{width:100%;height:100%;display:grid;place-items:center;border-radius:8px;background:radial-gradient(circle at 50% 35%,#2b2f36,#0d0f13);font:700 72px/1 var(--display);color:rgba(255,255,255,.14)}
+.batch{position:absolute;top:8px;right:8px;padding:5px 8px;border:.5px solid #383838;border-radius:4px;background:rgba(255,255,255,.03);font:400 10px/12px var(--display);color:rgba(255,255,255,.7)}
+.sc .dash{position:absolute;left:21px;right:21px;top:306px;border-top:1px dashed #262A2F}
+.nm{position:absolute;left:21px;right:21px;top:244px;color:#fff}
+.nm b{display:block;font:700 18px/28px var(--display)}
+.nm span{display:flex;align-items:center;gap:8px;font:400 14px/28px var(--display);white-space:nowrap}
+.chev{width:12px;height:12px;flex:none}
+.co{position:absolute;left:21px;top:326px;font:600 15px/22px var(--body);color:#fff;display:flex;align-items:center;gap:6px;letter-spacing:-.01em}
+.ey i{width:16px;height:12px;background:#FFE600;transform:skewX(-20deg) rotate(-8deg);display:block}
+.ey b{font:700 17px/1 var(--display);letter-spacing:-.02em}
+.pill{position:absolute;right:18px;top:326px;height:30px;padding:8px 14px;border-radius:30px;background:rgba(0,0,0,.2);font:700 12px/14px var(--display);color:#fff;white-space:nowrap}
+.dots{position:relative;z-index:1;display:flex;justify-content:center;gap:8px;margin:40px 0 86px}
+.dots button{width:6px;height:6px;padding:0;border:0;border-radius:50%;background:#2E3442;cursor:pointer}
+.dots button.on{background:#fff}
+.dots button:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+.s3 .rule{position:relative;z-index:1;max-width:1200px;margin:0 auto 74px;border-top:1px solid var(--line)}
+.lg{position:relative;z-index:1;width:900px;max-width:100%;height:300px;margin:23px auto 0;border:1px solid rgba(199,199,199,.09)}
+.lg .cell{position:absolute;inset:0;background:
+  repeating-linear-gradient(90deg,transparent 0 149px,rgba(199,199,199,.09) 149px 150px),
+  repeating-linear-gradient(180deg,transparent 0 99px,rgba(199,199,199,.09) 99px 100px)}
+.lg img{position:absolute;left:50%;top:26px;width:min(844px,94%);height:auto;transform:translateX(-50%)}
+.lg .mk{position:absolute;top:250px;transform:translate(-50%,-50%);color:rgba(255,255,255,.7);display:block}
+.s3-streak{position:absolute;left:-98px;top:545px;width:1418px;height:367px;pointer-events:none;mix-blend-mode:plus-lighter;opacity:.18;
+  background:repeating-linear-gradient(0deg,rgba(150,185,235,.9) 0 1px,transparent 1px 7px);
+  -webkit-mask-image:linear-gradient(90deg,transparent 5%,#000 30%,transparent 65%);mask-image:linear-gradient(90deg,transparent 5%,#000 30%,transparent 65%)}
+.s3-glow{top:calc(50% - 130px)!important}
+@media (max-width:900px){
+  .s3::before,.s3::after{display:none}
+  .track{padding:0 20px;scroll-padding:0 20px}
+  .car::before,.car::after{width:30px}
+  .lg{height:auto;border:0}.lg .cell,.lg .mk{display:none}
+  .lg img{position:static;transform:none;width:100%}
+}
+
+/* ---- section 4 (white) ---- */
+.s4{position:relative;background:#fff;color:#0E1524;padding:74px 20px 103px;--l:rgba(153,166,180,.16);border-top:1px solid var(--l);border-bottom:1px solid var(--l)}
+.s4::before,.s4::after{content:"";position:absolute;top:0;bottom:0;width:1px;background:var(--l)}
+.s4::before{left:max(0px,calc(50% - 600px))}.s4::after{right:max(0px,calc(50% - 600px))}
+.s4 .s2-head{padding-bottom:50px;position:relative;z-index:1}
+.s4 .s2-head p{color:#525963}
+.s4 .s2-head h2{background-image:linear-gradient(100.85deg,#202020 56.7%,#8F8F8F 85.46%)}
+.s4 .hr{height:1px;background:var(--l);margin:53px -20px 34px}
+.els{display:flex;justify-content:center;max-width:100%}
+.el{position:relative;flex:none;width:325px;height:624px;border:1px solid #EBEDF0;margin:0 -1px;background:#fff;overflow:hidden}
+.el h3{margin:0;height:65px;padding:22px 20px 0;border-bottom:1px solid #EBEDF0;font:600 16px/24px var(--body);color:#0E1524}
+.stat{display:flex;gap:13px;padding:15px 20px 0;height:70px;border-bottom:1px solid #EBEDF0;box-sizing:content-box}
+.stat b{flex:none;font:700 24px/38px var(--display);letter-spacing:-1px;background:linear-gradient(97.8deg,#202020 36%,#8F8F8F 85%);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.stat span{font:400 13px/17px var(--body);max-width:237px;background:linear-gradient(97.8deg,rgba(32,32,32,.8) 36%,rgba(143,143,143,.8) 85%);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.pts{margin:0;padding:15px 20px 0;font:600 13px/22px var(--body);color:#687382}
+.pts span{display:block}
+.fig{position:absolute;left:20px;right:20px;top:306px;height:280px}
+.fig img{position:absolute;left:-19px;width:323px;height:auto;display:block}
+.fig .fade{position:absolute;left:-20px;right:-20px;bottom:-8px;height:144px;background:linear-gradient(180deg,rgba(255,255,255,0),#fff 62%)}
+.fig .dl{position:absolute;left:0;right:0;top:210px;border-top:1px dashed rgba(38,42,47,.29)}
+.tag{position:absolute;z-index:2;left:50%;top:165px;transform:translateX(-50%);padding:8px 14px;border:.7px solid rgba(0,64,134,.1);border-radius:6px;background:rgba(0,64,134,.06);font:700 12px/13px var(--display);letter-spacing:-.02em;color:#044B8B;white-space:nowrap}
+.who{position:absolute;z-index:2;left:0;right:0;top:228px}
+.who b{display:block;font:700 14px/17px var(--display);color:#0E1524;margin-bottom:6px}
+.who span{display:flex;flex-wrap:wrap;align-items:center;gap:6px 10px;font:700 18px/22px var(--display);letter-spacing:-.7px}
+.who i{font-style:normal;background:linear-gradient(97.8deg,rgba(32,32,32,.6) 36%,rgba(143,143,143,.6) 85%);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.who em{font-style:normal;background:linear-gradient(94deg,#044B8C 13%,#519AE2 97%);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.s4 .chev{width:12px;height:12px;flex:none}
+.mods{width:940px;max-width:100%;margin:50px auto 0}
+.acc{box-sizing:border-box;border:1px solid #EBEDF0;margin-bottom:-1px;background:#fff}
+.acc .hd{width:100%;display:flex;align-items:center;gap:10px;padding:14px 19px 25px;background:none;border:0;text-align:left;cursor:pointer;color:inherit;font:inherit}
+.acc .hd:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+.acc .tx{flex:1 1 0;min-width:0}
+.acc .tx small{display:block;font:400 12px/24px var(--body);color:#687382;margin:0}
+.acc .tx span{display:block;font:400 16px/24px var(--body);color:#0E1524;margin-top:-3px}
+.acc .hr2{flex:0 0 37.4%;font:400 12px/16px Inter,var(--body);color:#687382}
+.acc .ch{flex:none;width:16px;height:16px;transition:transform .25s}
+.acc.open .ch{transform:rotate(180deg)}
+.acc.open .hd{padding-bottom:20px}
+.pn{display:grid;grid-template-rows:0fr;transition:grid-template-rows .28s ease}
+.acc.open .pn{grid-template-rows:1fr}
+.pi{overflow:hidden;min-height:0;padding:0 19px}
+.acc.open .pi{padding-bottom:25px}
+.acc .hr2{padding-left:0}
+.bx{width:100%;padding:0}
+.bx ul{margin:0;padding:0;list-style:none}
+.bx li{position:relative;padding-left:32px;font:400 14px/20px var(--body);color:#687382}
+.bx li+li{margin-top:8px}
+.bx li::before{content:"";position:absolute;left:15px;top:8px;width:5px;height:5px;border-radius:50%;background:#687382}
+.more{position:relative}
+.more.collapsed{height:199px}
+.more.collapsed .acc{position:absolute;inset:0 0 auto 0;height:110px;overflow:hidden;pointer-events:none}
+.more .ov{position:absolute;left:0;right:0;top:21px;height:89px;background:linear-gradient(180deg,rgba(255,255,255,.4),#fff);backdrop-filter:blur(2px)}
+.more:not(.collapsed) .ov{display:none}
+.more .act{display:flex;flex-direction:column;align-items:center;gap:14px;width:323px;max-width:100%;margin:0 auto;padding-top:14px}
+.more.collapsed .act{position:absolute;left:50%;top:110px;transform:translateX(-50%);padding-top:0}
+.more .all{display:flex;align-items:center;justify-content:center;gap:8px;height:48px;font:400 16px/16px var(--body);color:#000;background:none;border:0;cursor:pointer}
+.more .all svg{transition:transform .25s}
+.more:not(.collapsed) .all svg{transform:rotate(180deg)}
+.more .all:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.more .submit{width:284px;max-width:100%;height:49px;text-decoration:none}
+@media (prefers-reduced-motion:reduce){.pn,.acc .ch,.more .all svg{transition:none}}
+@media (max-width:700px){.acc .hr2{flex:none}.bx{width:100%}.bx li{padding-left:28px}.bx li::before{left:11px}}
+@media (max-width:1000px){
+  .els{flex-direction:column;align-items:center;gap:20px}.el{margin:0}
+  .s4::before,.s4::after{display:none}
+}
+@media (max-width:560px){.s4 .s2-head h2{font-size:34px;line-height:38px}.mod{flex-direction:column;align-items:flex-start}}
+
+/* ---- section 5: projects ---- */
+.s5{position:relative;overflow:hidden;background:#000;padding:74px 20px 80px}
+.s5::before,.s5::after{content:"";position:absolute;top:0;bottom:0;width:1px;background:var(--line);z-index:2}
+.s5::before{left:max(0px,calc(50% - 600px))}.s5::after{right:max(0px,calc(50% - 600px))}
+.s5 .s2-head p{font-size:18px}
+.s5 .endr{position:absolute;left:50%;bottom:0;transform:translateX(-50%);width:min(1200px,100%);height:1px;background:var(--line)}
+.pcar{position:relative;width:1100px;max-width:100%;margin:0 auto}
+.pcar::before,.pcar::after{content:"";position:absolute;top:0;bottom:0;width:53px;z-index:3;pointer-events:none}
+.pcar::before{left:0;background:linear-gradient(90deg,#000,rgba(0,0,0,0))}
+.pcar::after{right:0;background:linear-gradient(270deg,#000,rgba(0,0,0,0))}
+.ptrack{display:flex;gap:18px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;scroll-behavior:smooth}
+.ptrack::-webkit-scrollbar{display:none}
+.prc{flex:none;width:284px;height:377px;padding:1px;border-radius:8px;background:rgba(167,181,199,.07);scroll-snap-align:start}
+.prn{position:relative;height:100%;border-radius:8px;overflow:hidden;background:linear-gradient(180deg,#1C1C1C,#000)}
+.prt{position:absolute;left:21px;top:20px;width:252px}
+.prt h3{margin:0;height:48px;font:500 18px/24px var(--body);color:#fff}
+.prt p{margin:12px 0 0;font:400 12px/22px var(--body);color:rgba(255,255,255,.73)}
+.prd{position:absolute;left:21px;right:21px;top:178px;border-top:1px dashed #262A2F}
+.pil{position:absolute;display:block;max-width:none;pointer-events:none}
+.s5 .dots{margin:40px 0 0}
+@media (max-width:900px){.s5::before,.s5::after{display:none}.pcar::before,.pcar::after{width:24px}}
+
+/* ---- section 6: tools ---- */
+.s6{position:relative;overflow:hidden;padding:74px 20px 120px;background:linear-gradient(180deg,#010203 4%,rgba(20,42,61,.6) 66%,#010203 99%),#010203;border-top:1px solid var(--line)}
+.s6::before,.s6::after{content:"";position:absolute;top:0;bottom:0;width:1px;background:var(--line);z-index:2}
+.s6::before{left:max(0px,calc(50% - 600px))}.s6::after{right:max(0px,calc(50% - 600px))}
+.s6 .s2-head{position:relative;z-index:1;padding-bottom:80px}
+.s6 .s2-head p{font-size:16px}
+.s6 .endr{position:absolute;left:50%;bottom:0;transform:translateX(-50%);width:min(1200px,100%);height:1px;background:var(--line)}
+.tgrid{position:relative;z-index:1;display:grid;grid-template-columns:repeat(6,132px);width:max-content;max-width:100%;margin:0 auto}
+.tl{margin:0 -1px -1px 0;border:1px solid rgba(199,199,199,.14);background:rgba(8,14,24,.7)}
+.tl .ic{height:104px;display:flex;align-items:center;justify-content:center;border-bottom:1px solid rgba(199,199,199,.14);background:linear-gradient(225deg,rgba(38,96,180,.45) 0,rgba(38,96,180,0) 38%),linear-gradient(45deg,rgba(38,96,180,.4) 0,rgba(38,96,180,0) 30%)}
+.tl .ic img{display:block;max-width:76px;max-height:60px;width:auto;height:auto}
+.tl p{margin:0;height:34px;display:flex;align-items:center;justify-content:center;font:400 14px/1 var(--body);color:#fff}
+@media (max-width:900px){.s6::before,.s6::after{display:none}}
+@media (max-width:860px){.tgrid{grid-template-columns:repeat(3,minmax(0,132px))}}
+@media (max-width:420px){.tgrid{grid-template-columns:repeat(2,minmax(0,132px))}.s2-head h2{font-size:34px;line-height:38px}}
+
+/* ---- section 7: session preview ---- */
+.s7{position:relative;overflow:hidden;height:685px;background:#000 url(assets/bc568e946e.webp) no-repeat center top/auto 100%;padding:70px 20px 0}
+.s7 .s2-head{padding-bottom:0;gap:16px}
+.s7 .s2-head p{font-size:18px}
+.vid{position:absolute;left:50%;top:197px;transform:translateX(-50%);width:561px;max-width:calc(100% - 40px);height:360px;border-radius:16px;overflow:hidden;background:rgba(0,0,0,.2);border:1px solid rgba(255,255,255,.08)}
+.vid>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:brightness(.85)}
+.play{position:absolute;left:50%;top:calc(50% - 20px);width:80px;height:80px;margin:-40px 0 0 -40px;padding:0;border:0;background:none;cursor:pointer;transition:transform .2s}
+.play:hover{transform:scale(1.08)}.play:focus-visible{outline:2px solid var(--accent);outline-offset:4px;border-radius:50%}
+.vbar{position:absolute;left:0;right:0;bottom:0;height:85px;padding:14px 28px;background:#060605;border-top:1px solid #1F2124;display:flex;flex-direction:column;gap:2px}
+.vbar small{font:400 16px/24px var(--body);color:#687382}
+.vbar b{font:600 20px/24px var(--body);color:#fff}
+.vcap{position:absolute;left:0;right:0;top:584px;margin:0 auto;max-width:518px;text-align:center;font:400 18px/26px var(--body);color:rgba(255,255,255,.73);opacity:.84}
+@media (max-width:560px){.s7 .s2-head h2{font-size:30px;line-height:36px}.vid{height:300px}.vbar{padding:10px 18px}.vcap{padding:0 20px;font-size:16px}}
+
+/* ---- section 8: gen ai ---- */
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.s8{position:relative;background:#fff;color:#0E1524;padding:74px 20px 80px;border-top:1px solid rgba(153,166,180,.16);--l:rgba(153,166,180,.16)}
+.s8::before,.s8::after{content:"";position:absolute;top:0;bottom:0;width:1px;background:var(--l)}
+.s8::before{left:max(0px,calc(50% - 600px))}.s8::after{right:max(0px,calc(50% - 600px))}
+.s8 .s2-head{padding-bottom:50px;position:relative;z-index:1}
+.s8 .s2-head p{color:#525963}
+.s8 .s2-head h2{background-image:linear-gradient(100.85deg,#202020 56.7%,#8F8F8F 85.46%)}
+.gcards{position:relative;z-index:1;display:flex;width:1100px;max-width:100%;margin:0 auto}
+.gc{position:relative;flex:1 1 0;min-width:0;height:362px;overflow:hidden;background:#fff;border:1px solid rgba(153,166,180,.2);margin:0 -1px 0 0}
+.gc h3{position:relative;z-index:2;margin:0;padding:27px 22px 0;font:700 18px/26px var(--body);color:#0E1524}
+.gc p{position:relative;z-index:2;margin:4.5px 0 0;padding:0 22px;max-width:344px;font:400 16px/24px var(--body);color:#687382}
+.gc img{position:absolute;display:block;max-width:none}
+.g1{left:7px;top:76px;width:353px;height:286px}
+.g2{left:0;top:152px;width:366px;height:245px}
+.g3{left:0;bottom:0;width:100%;height:auto}
+.gc:nth-child(3)::after{content:"";position:absolute;left:1px;right:1px;top:136px;height:60px;z-index:1;background:linear-gradient(180deg,#fff,rgba(255,255,255,0))}
+@media (max-width:1000px){.gcards{flex-direction:column;width:min(420px,100%)}.gc{flex:none;width:100%;margin:0 0 -1px}.g1{left:50%;margin-left:-176px}.g2{left:50%;margin-left:-183px}}
+/* ---- section 9: placement ---- */
+.s9{position:relative;background:#fff;color:#0E1524;padding:74px 20px 80px;border-top:1px solid #E0E4E9;--l:rgba(153,166,180,.16)}
+.s9::before,.s9::after{content:"";position:absolute;top:0;bottom:0;width:1px;background:var(--l)}
+.s9::before{left:max(0px,calc(50% - 600px))}.s9::after{right:max(0px,calc(50% - 600px))}
+.s9 .s2-head{padding-bottom:50px;position:relative;z-index:1}
+.s9 .s2-head p{color:#525963}
+.s9 .s2-head h2{background-image:linear-gradient(100.85deg,#202020 56.7%,#8F8F8F 85.46%)}
+.pcards{position:relative;z-index:1;display:flex;flex-wrap:wrap;justify-content:center;width:1104px;max-width:100%;margin:0 auto}
+.pc{position:relative;flex:none;width:276px;height:286px;margin:0 0 -1px -1px;overflow:hidden;background:#fff}
+.pc img{position:absolute;inset:0;width:100%;height:100%;display:block}
+.pc h3{position:absolute;left:20px;top:20px;width:233px;margin:0;font:700 20px/28px var(--display);color:#0E1524}
+.pc p{position:absolute;left:20px;top:52px;width:232px;margin:0;font:400 16px/24px var(--body);color:#687382}
+
+/* ---- mobile: section headings 32px, left-aligned ---- */
+@media (max-width:700px){
+  section[class] .s2-head{align-items:flex-start;text-align:left}
+  section[class] .s2-head p{text-align:left;font-size:12px!important;line-height:16px}
+  section[class] .s2-head h2{font-size:32px;line-height:36px;text-align:left}
+  section.s10 .s2-head{padding:0 20px}
+}
+
+/* ---- section 11: dual certification + creators ---- */
+.s11{position:relative;overflow:hidden;padding:74px 20px;background:#000 url(assets/8f0350be74.webp) center/100% 100% no-repeat}
+.s11::before,.s11::after{content:"";position:absolute;top:0;bottom:0;width:1px;background:var(--line);z-index:2}
+.s11::before{left:max(0px,calc(50% - 600px))}.s11::after{right:max(0px,calc(50% - 600px))}
+.s11 .s2-head{position:relative;z-index:1;padding-bottom:0}
+.s11 .s2-head p{font-size:18px}
+.s11-b .s2-head h2{max-width:726px}
+.s11-cols{position:relative;z-index:1;display:flex;justify-content:center;gap:85px;margin:131px auto 0;max-width:1200px;padding:0 0 0 78px}
+.s11-col{flex:0 1 510px;min-width:0}
+.s11-col h3{margin:0;font:700 18px/26px var(--body);color:#fff}
+.s11-col p{margin:4px 0 0;max-width:330px;font:400 16px/24px var(--body);color:#687382}
+.s11-col img{display:block;margin-top:24px;width:min(425px,100%);height:auto;border:1px solid rgba(0,0,0,.1)}
+.s11-hr{position:relative;z-index:1;height:1px;margin:93px -20px 0;background:rgba(199,199,199,.2)}
+.s11-b{position:relative;z-index:1;padding-top:74px}
+.s11-cards{display:grid;grid-template-columns:1fr 1fr;width:1100px;max-width:100%;margin:50px auto 0}
+.cr{position:relative;aspect-ratio:550/274;overflow:hidden;background:#05080d;border:1px solid #32373C}
+.cr+.cr{border-left:0}
+.cr img{position:absolute;inset:0;width:100%;height:100%;display:block;object-fit:cover}
+.cr-t{position:absolute;left:9.09%;top:50%;width:40%;transform:translateY(-50%)}
+.cr-t b{display:block;font:700 clamp(12px,3.64vw,20px)/1.4 var(--display);text-transform:uppercase;color:#687382}
+.cr-t span{display:block;margin-top:7px;font:600 clamp(15px,4.36vw,24px)/1.3 var(--body);text-transform:capitalize;color:#fff}
+@media (min-width:701px){.cr-t b{font-size:20px}.cr-t span{font-size:24px}}
+@media (max-width:700px){
+  .s11{padding:60px 20px}
+  .s11::before,.s11::after{display:none}
+  .s11-cols{flex-direction:column;gap:48px;margin-top:40px;padding:0}
+  .s11-col{flex:none;width:100%}
+  .s11-hr{margin-top:64px}
+  .s11-b{padding-top:60px}
+  .s11-cards{grid-template-columns:1fr;gap:16px;margin-top:32px}
+  .cr+.cr{border-left:1px solid #32373C}
+}
+
+/* perf: skip layout/paint of off-screen sections until they are near the viewport (sizes = real heights so anchors/scrollbar stay stable) */
+.s3{content-visibility:auto;contain-intrinsic-size:auto 1179px}
+.s4{content-visibility:auto;contain-intrinsic-size:auto 1814px}
+.s5{content-visibility:auto;contain-intrinsic-size:auto 560px}
+.s6{content-visibility:auto;contain-intrinsic-size:auto 443px}
+.s7{content-visibility:auto;contain-intrinsic-size:auto 615px}
+.s8{content-visibility:auto;contain-intrinsic-size:auto 497px}
+.s9{content-visibility:auto;contain-intrinsic-size:auto 420px}
+.s10{content-visibility:auto;contain-intrinsic-size:auto 612px}
+.s11{content-visibility:auto;contain-intrinsic-size:auto 1249px}
+@media (max-width:700px){.s3{contain-intrinsic-size:auto 1012px}.s4{contain-intrinsic-size:auto 3432px}.s5{contain-intrinsic-size:auto 577px}.s6{contain-intrinsic-size:auto 982px}.s7{contain-intrinsic-size:auto 615px}.s8{contain-intrinsic-size:auto 1237px}.s9{contain-intrinsic-size:auto 1294px}.s10{contain-intrinsic-size:auto 539px}.s11{contain-intrinsic-size:auto 1481px}}
+
+</style>
+</head>
+<body>
+
+<div class="topbar" id="topbar"><div class="wrap"><nav>
+      <a class="logo" href="#" aria-label="GUVI home"><svg class="logo-svg" width="172" height="31" viewBox="0 0 172 31" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="GUVI">
+<path d="M9.44542 0.358398C4.24382 0.358398 0.0262451 4.57597 0.0262451 9.77757C0.0262451 14.9792 4.24382 19.1967 9.44542 19.1967C14.647 19.1967 18.8646 14.9792 18.8646 9.77757C18.8646 4.57597 14.647 0.358398 9.44542 0.358398Z" fill="#0AD652"/>
+<g filter="url(#filter0_d_32_23572)">
+<path d="M12.5572 6.59056V9.68819C12.5572 9.68819 12.5572 9.93448 12.5572 10.0646C12.5572 10.5572 12.3143 10.9917 11.9396 11.266C11.6823 11.4543 11.3612 11.5664 11.0133 11.5664H9.49009C9.48392 11.5664 9.47568 11.5664 9.46951 11.5664C9.46333 11.5664 9.45716 11.5664 9.44892 11.5664C8.60496 11.5764 7.92567 12.2452 7.92567 13.0702C7.92567 13.9011 8.61731 14.5739 9.46951 14.5739C10.3217 14.5739 11.0133 13.9011 11.0133 13.0702C11.0133 12.6537 11.3592 12.3173 11.7853 12.3173C12.2052 12.3173 12.5469 12.6437 12.5572 13.0501C12.5572 13.0561 12.5572 13.0621 12.5572 13.0682V13.0722C12.5572 14.1855 11.9355 15.1566 11.0133 15.6772C10.5584 15.9335 10.0315 16.0797 9.46951 16.0797C8.90755 16.0797 8.38059 15.9335 7.92567 15.6772C7.0179 15.1646 6.40242 14.2175 6.38184 13.1282V13.0121C6.39213 12.4855 6.54239 11.9929 6.79558 11.5644C7.0673 11.1099 7.45635 10.7294 7.92567 10.4651C8.38059 10.2088 8.90755 10.0626 9.46951 10.0626H10.6943C10.8713 10.0626 11.0133 9.92447 11.0133 9.75227V6.72873C11.0133 6.7107 11.0133 6.68991 11.0133 6.67189C11.0133 6.65387 11.0142 6.64418 11.0133 6.6206C10.9845 5.81365 10.3052 5.1669 9.47157 5.1669H9.46951C8.61731 5.1669 7.92567 5.84169 7.92567 6.67266C7.92567 7.50363 8.61731 8.17842 9.46951 8.17842H9.47157C9.84209 8.17842 10.1529 8.43072 10.2291 8.76711C10.2414 8.81917 10.2476 8.87524 10.2476 8.93131C10.2476 9.33177 9.92648 9.65816 9.51891 9.68219C9.50244 9.68219 9.48598 9.68419 9.47157 9.68419H9.46951C9.46333 9.68419 9.45716 9.68419 9.45098 9.68419C8.8952 9.68018 8.37647 9.53401 7.92773 9.28172C7.00555 8.76111 6.38389 7.78797 6.38389 6.67266C6.38184 5.55936 7.00349 4.58622 7.92567 4.06561C8.38059 3.8073 8.90755 3.66113 9.46951 3.66113H9.47157C10.0335 3.66113 10.5605 3.8073 11.0133 4.0636C11.9129 4.5702 12.5263 5.5093 12.5572 6.59056Z" fill="white"/>
+</g>
+<mask id="mask0_32_23572" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="83" y="4" width="79" height="12">
+<path d="M161.808 4.60449H83.0659V15.856H161.808V4.60449Z" fill="white"/>
+</mask>
+<g mask="url(#mask0_32_23572)">
+<path d="M83.0659 15.4991H91.6065L93.4406 11.3061H101.814L99.9371 15.4991H108.583L113.325 4.9886H104.618L103.056 8.53326H94.688L96.275 4.9886L87.8148 4.98242L83.0659 15.4991Z" fill="white"/>
+<path d="M132.276 8.56018H140.359C140.31 6.79402 138.599 5.57129 135.215 5.08344C128.54 4.10155 121.32 4.52147 116.176 7.35597C112.125 9.60381 111.817 12.9879 115.849 14.6492C119.246 16.0324 126.384 16.1744 131.492 15.3098C134.796 14.7479 137.321 13.6611 138.741 12.0369H130.485C129.416 12.8582 128.015 13.272 126.384 13.2843C121.746 13.3153 121.136 11.9135 121.944 10.2955C122.907 8.39344 124.92 7.35597 127.996 7.26952C130.417 7.20158 131.615 7.73885 132.27 8.55399" fill-rule="evenodd" clip-rule="evenodd" fill="white"/>
+<path d="M153.269 4.98242L149.669 12.9919H161.81L160.679 15.4929H139.807L144.506 4.98242H153.269Z" fill-rule="evenodd" clip-rule="evenodd" fill="white"/>
+</g>
+<path d="M76.34 2.64453V17.5318" stroke-width="0.220115" stroke-linecap="round" stroke="white"/>
+<path d="M0.207171 25.3711C0.207171 24.7333 0.746906 24.2699 1.50472 24.2699C2.15349 24.2699 2.54057 24.4661 2.82407 24.7496L2.47515 25.1585C2.22982 24.9186 1.92996 24.8151 1.55923 24.8151C1.02495 24.8151 0.779617 25.0222 0.779617 25.333C0.779617 25.6873 1.1667 25.791 1.69553 25.9109C2.49151 26.0908 2.91675 26.4125 2.91675 27.0776C2.91675 27.8354 2.24617 28.1952 1.5974 28.1952C0.894105 28.1952 0.338016 27.8626 0 27.5083L0.365275 27.0449C0.626965 27.3229 1.0304 27.6064 1.56469 27.6064C2.04445 27.6064 2.33339 27.3938 2.33339 27.0667C2.33339 26.6905 2.02264 26.5488 1.42839 26.4234C0.714194 26.2707 0.207171 26.0144 0.207171 25.3711ZM4.98846 24.1608H5.56091V26.8432L7.02745 25.3057H7.74165L6.5477 26.5379L7.88885 28.1407H7.20737L6.17697 26.9249L5.56091 27.5628V28.1407H4.98846V24.1608ZM9.61837 24.4225C9.61837 24.2154 9.78193 24.0518 9.98909 24.0518C10.1963 24.0518 10.3598 24.2154 10.3598 24.4225C10.3598 24.6297 10.1963 24.7932 9.98909 24.7932C9.78193 24.7932 9.61837 24.6297 9.61837 24.4225ZM9.7056 25.3057H10.278V28.1407H9.7056V25.3057ZM12.4854 24.1608H13.0579V28.1407H12.4854V24.1608ZM15.2912 24.1608H15.8637V28.1407H15.2912V24.1608ZM21.6669 26.6142C21.6669 27.2084 22.1467 27.6773 22.7301 27.6773C23.3133 27.6773 23.7932 27.2084 23.7932 26.6142V24.3243H24.3656V26.6142C24.3656 27.5355 23.6514 28.1952 22.7301 28.1952C21.8087 28.1952 21.0944 27.5355 21.0944 26.6142V24.3243H21.6669V26.6142ZM27.1447 26.7232C27.1447 27.3175 27.5155 27.6773 28.0443 27.6773C28.5732 27.6773 28.9166 27.3175 28.9166 26.7232C28.9166 26.1289 28.5732 25.7692 28.0443 25.7692C27.5155 25.7692 27.1447 26.1289 27.1447 26.7232ZM26.5724 29.2311V25.3057H27.1447V25.8182C27.3301 25.4747 27.6518 25.2512 28.1534 25.2512C28.8566 25.2512 29.489 25.8563 29.489 26.7232C29.489 27.59 28.8566 28.1952 28.1534 28.1952C27.6354 28.1952 27.3192 27.988 27.1447 27.6609V29.2311H26.5724ZM31.3169 27.7809C31.3169 27.5519 31.5022 27.3665 31.7258 27.3665C31.9493 27.3665 32.1347 27.5519 32.1347 27.7809C32.1347 28.0098 31.9493 28.1952 31.7258 28.1952C31.5022 28.1952 31.3169 28.0098 31.3169 27.7809ZM37.2064 24.3243H37.8061V27.5956H40.0959V28.1407H37.2064V24.3243ZM43.8929 26.4669C43.8112 26.0253 43.5168 25.7692 43.0697 25.7692C42.6227 25.7692 42.3282 26.0253 42.2465 26.4669H43.8929ZM41.6523 26.7232C41.6523 25.8563 42.2574 25.2512 43.0697 25.2512C43.882 25.2512 44.4872 25.8563 44.4872 26.7232V26.8868H42.2356C42.2956 27.3829 42.6445 27.6773 43.1242 27.6773C43.4732 27.6773 43.8384 27.5519 44.0401 27.2847L44.3946 27.6391C44.1383 27.988 43.6531 28.1952 43.1242 28.1952C42.2574 28.1952 41.6523 27.59 41.6523 26.7232ZM46.068 25.3057H46.6405L47.5401 27.4592L48.4396 25.3057H49.012L47.8127 28.1407H47.2675L46.068 25.3057ZM52.8587 26.4669C52.777 26.0253 52.4826 25.7692 52.0355 25.7692C51.5884 25.7692 51.294 26.0253 51.2123 26.4669H52.8587ZM50.618 26.7232C50.618 25.8563 51.2232 25.2512 52.0355 25.2512C52.8478 25.2512 53.453 25.8563 53.453 26.7232V26.8868H51.2014C51.2613 27.3829 51.6102 27.6773 52.0901 27.6773C52.439 27.6773 52.8042 27.5519 53.0059 27.2847L53.3603 27.6391C53.1041 27.988 52.6189 28.1952 52.0901 28.1952C51.2232 28.1952 50.618 27.59 50.618 26.7232ZM55.4987 24.1608H56.0711V28.1407H55.4987V24.1608ZM61.8744 26.6142C61.8744 27.2084 62.3541 27.6773 62.9375 27.6773C63.5209 27.6773 64.0006 27.2084 64.0006 26.6142V24.3243H64.5731V26.6142C64.5731 27.5355 63.8589 28.1952 62.9375 28.1952C62.0161 28.1952 61.302 27.5355 61.302 26.6142V24.3243H61.8744V26.6142ZM67.3523 26.7232C67.3523 27.3175 67.723 27.6773 68.2519 27.6773C68.7806 27.6773 69.1241 27.3175 69.1241 26.7232C69.1241 26.1289 68.7806 25.7692 68.2519 25.7692C67.723 25.7692 67.3523 26.1289 67.3523 26.7232ZM66.7798 29.2311V25.3057H67.3523V25.8182C67.5376 25.4747 67.8593 25.2512 68.3608 25.2512C69.0642 25.2512 69.6966 25.8563 69.6966 26.7232C69.6966 27.59 69.0642 28.1952 68.3608 28.1952C67.8429 28.1952 67.5267 27.988 67.3523 27.6609V29.2311H66.7798Z" fill="white"/>
+<use xlink:href="#stroke0_32_23572" fill="white"/>
+<mask id="stroke1_32_23572" maskUnits="userSpaceOnUse" x="22.9333" y="3" width="46" height="15" fill="black">
+<rect fill="white" x="22.9333" y="3" width="46" height="15"/>
+<use xlink:href="#stroke0_32_23572"/>
+</mask>
+<path d="M30.3508 17.1827C29.0719 17.1827 27.9514 16.9026 26.9892 16.3423C26.027 15.782 25.2779 15.0147 24.742 14.0403C24.2061 13.0538 23.9382 11.9211 23.9382 10.6422C23.9382 9.65564 24.1026 8.76043 24.4315 7.95657C24.7603 7.14053 25.211 6.44629 25.7834 5.87384C26.368 5.28922 27.044 4.84466 27.8113 4.54016C28.5786 4.22349 29.4069 4.06516 30.296 4.06516C31.3313 4.06516 32.2021 4.19304 32.9085 4.44882C33.6271 4.70459 34.2727 5.01517 34.8451 5.38056C34.9304 5.42928 35.0095 5.50845 35.0826 5.61807C35.1679 5.72769 35.2105 5.86775 35.2105 6.03827C35.2105 6.23314 35.1435 6.40975 35.0095 6.56808C34.8755 6.71424 34.6868 6.78732 34.4432 6.78732C34.3092 6.78732 34.1813 6.75687 34.0595 6.69597C33.5236 6.3793 32.9694 6.12962 32.397 5.94692C31.8245 5.76423 31.1851 5.67288 30.4787 5.67288C29.5652 5.67288 28.737 5.86775 27.994 6.2575C27.2632 6.63507 26.6786 7.19534 26.2401 7.9383C25.8138 8.66908 25.6007 9.57038 25.6007 10.6422C25.6007 11.58 25.7956 12.4265 26.1853 13.1817C26.5751 13.9246 27.1414 14.5153 27.8844 14.9538C28.6274 15.3923 29.5226 15.6115 30.57 15.6115C31.2155 15.6115 31.8063 15.5384 32.3422 15.3923C32.8781 15.2339 33.3531 15.0391 33.7672 14.8077V11.5009H30.7527C30.5457 11.5009 30.3691 11.4278 30.2229 11.2816C30.0767 11.1355 30.0037 10.9589 30.0037 10.7518C30.0037 10.5448 30.0767 10.3682 30.2229 10.222C30.3691 10.0758 30.5457 10.0028 30.7527 10.0028H34.3518C34.5954 10.0028 34.8025 10.088 34.973 10.2585C35.1435 10.4291 35.2288 10.6361 35.2288 10.8797V15.0269C35.2288 15.2827 35.1618 15.5141 35.0278 15.7211C34.906 15.916 34.7416 16.0622 34.5345 16.1596C33.9377 16.4641 33.2861 16.7138 32.5797 16.9087C31.8854 17.0913 31.1425 17.1827 30.3508 17.1827ZM44.2327 17.1827C43.6237 17.1827 43.0086 17.0853 42.3874 16.8904C41.7663 16.6955 41.1999 16.3971 40.6884 15.9952C40.1768 15.5811 39.7627 15.0634 39.446 14.4423C39.1415 13.8089 38.9893 13.066 38.9893 12.2134V4.9969C38.9893 4.76549 39.0685 4.57061 39.2268 4.41228C39.3851 4.24176 39.58 4.1565 39.8114 4.1565C40.0428 4.1565 40.2377 4.24176 40.396 4.41228C40.5666 4.57061 40.6518 4.76549 40.6518 4.9969V12.2682C40.6518 13.0233 40.8223 13.6567 41.1634 14.1682C41.5166 14.6676 41.9672 15.0452 42.5153 15.3009C43.0634 15.5445 43.6358 15.6663 44.2327 15.6663C44.8295 15.6663 45.4019 15.5445 45.95 15.3009C46.4981 15.0452 46.9426 14.6676 47.2837 14.1682C47.6369 13.6567 47.8135 13.0233 47.8135 12.2682V4.9969C47.8135 4.76549 47.8927 4.57061 48.051 4.41228C48.2093 4.24176 48.4042 4.1565 48.6356 4.1565C48.867 4.1565 49.0619 4.24176 49.2202 4.41228C49.3908 4.57061 49.476 4.76549 49.476 4.9969V12.2134C49.476 13.066 49.3177 13.8089 49.001 14.4423C48.6965 15.0634 48.2885 15.5811 47.7769 15.9952C47.2654 16.3971 46.699 16.6955 46.0779 16.8904C45.4567 17.0853 44.8416 17.1827 44.2327 17.1827ZM57.84 17.0913C57.3407 17.0913 56.9631 16.8112 56.7073 16.2509L52.1947 5.30749C52.1582 5.21005 52.1399 5.10652 52.1399 4.9969C52.1399 4.75331 52.213 4.55234 52.3592 4.39401C52.5053 4.23567 52.7063 4.1565 52.9621 4.1565C53.3275 4.1565 53.5893 4.34529 53.7477 4.72286L58.041 15.4288L62.3344 4.72286C62.4927 4.34529 62.7546 4.1565 63.1199 4.1565C63.3757 4.1565 63.5767 4.23567 63.7228 4.39401C63.869 4.55234 63.9421 4.75331 63.9421 4.9969C63.9421 5.10652 63.9238 5.21005 63.8873 5.30749L59.3747 16.2509C59.1189 16.8112 58.7413 17.0913 58.242 17.0913H57.84ZM67.529 17.0913C67.2976 17.0913 67.1028 17.0122 66.9444 16.8538C66.7861 16.6955 66.7069 16.5006 66.7069 16.2692V4.9969C66.7069 4.76549 66.7861 4.57061 66.9444 4.41228C67.1028 4.24176 67.2976 4.1565 67.529 4.1565C67.7605 4.1565 67.9553 4.24176 68.1137 4.41228C68.2842 4.57061 68.3694 4.76549 68.3694 4.9969V16.2692C68.3694 16.5006 68.2842 16.6955 68.1137 16.8538C67.9553 17.0122 67.7605 17.0913 67.529 17.0913Z" stroke-width="0.660345" stroke="white" mask="url(#stroke1_32_23572)"/>
+<defs>
+<filter id="filter0_d_32_23572" x="1.6457" y="1.29307" width="15.6476" height="21.8912" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="2.36807"/>
+<feGaussianBlur stdDeviation="2.36807"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_32_23572"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_32_23572" result="shape"/>
+</filter>
+<path id="stroke0_32_23572" d="M30.3508 17.1827C29.0719 17.1827 27.9514 16.9026 26.9892 16.3423C26.027 15.782 25.2779 15.0147 24.742 14.0403C24.2061 13.0538 23.9382 11.9211 23.9382 10.6422C23.9382 9.65564 24.1026 8.76043 24.4315 7.95657C24.7603 7.14053 25.211 6.44629 25.7834 5.87384C26.368 5.28922 27.044 4.84466 27.8113 4.54016C28.5786 4.22349 29.4069 4.06516 30.296 4.06516C31.3313 4.06516 32.2021 4.19304 32.9085 4.44882C33.6271 4.70459 34.2727 5.01517 34.8451 5.38056C34.9304 5.42928 35.0095 5.50845 35.0826 5.61807C35.1679 5.72769 35.2105 5.86775 35.2105 6.03827C35.2105 6.23314 35.1435 6.40975 35.0095 6.56808C34.8755 6.71424 34.6868 6.78732 34.4432 6.78732C34.3092 6.78732 34.1813 6.75687 34.0595 6.69597C33.5236 6.3793 32.9694 6.12962 32.397 5.94692C31.8245 5.76423 31.1851 5.67288 30.4787 5.67288C29.5652 5.67288 28.737 5.86775 27.994 6.2575C27.2632 6.63507 26.6786 7.19534 26.2401 7.9383C25.8138 8.66908 25.6007 9.57038 25.6007 10.6422C25.6007 11.58 25.7956 12.4265 26.1853 13.1817C26.5751 13.9246 27.1414 14.5153 27.8844 14.9538C28.6274 15.3923 29.5226 15.6115 30.57 15.6115C31.2155 15.6115 31.8063 15.5384 32.3422 15.3923C32.8781 15.2339 33.3531 15.0391 33.7672 14.8077V11.5009H30.7527C30.5457 11.5009 30.3691 11.4278 30.2229 11.2816C30.0767 11.1355 30.0037 10.9589 30.0037 10.7518C30.0037 10.5448 30.0767 10.3682 30.2229 10.222C30.3691 10.0758 30.5457 10.0028 30.7527 10.0028H34.3518C34.5954 10.0028 34.8025 10.088 34.973 10.2585C35.1435 10.4291 35.2288 10.6361 35.2288 10.8797V15.0269C35.2288 15.2827 35.1618 15.5141 35.0278 15.7211C34.906 15.916 34.7416 16.0622 34.5345 16.1596C33.9377 16.4641 33.2861 16.7138 32.5797 16.9087C31.8854 17.0913 31.1425 17.1827 30.3508 17.1827ZM44.2327 17.1827C43.6237 17.1827 43.0086 17.0853 42.3874 16.8904C41.7663 16.6955 41.1999 16.3971 40.6884 15.9952C40.1768 15.5811 39.7627 15.0634 39.446 14.4423C39.1415 13.8089 38.9893 13.066 38.9893 12.2134V4.9969C38.9893 4.76549 39.0685 4.57061 39.2268 4.41228C39.3851 4.24176 39.58 4.1565 39.8114 4.1565C40.0428 4.1565 40.2377 4.24176 40.396 4.41228C40.5666 4.57061 40.6518 4.76549 40.6518 4.9969V12.2682C40.6518 13.0233 40.8223 13.6567 41.1634 14.1682C41.5166 14.6676 41.9672 15.0452 42.5153 15.3009C43.0634 15.5445 43.6358 15.6663 44.2327 15.6663C44.8295 15.6663 45.4019 15.5445 45.95 15.3009C46.4981 15.0452 46.9426 14.6676 47.2837 14.1682C47.6369 13.6567 47.8135 13.0233 47.8135 12.2682V4.9969C47.8135 4.76549 47.8927 4.57061 48.051 4.41228C48.2093 4.24176 48.4042 4.1565 48.6356 4.1565C48.867 4.1565 49.0619 4.24176 49.2202 4.41228C49.3908 4.57061 49.476 4.76549 49.476 4.9969V12.2134C49.476 13.066 49.3177 13.8089 49.001 14.4423C48.6965 15.0634 48.2885 15.5811 47.7769 15.9952C47.2654 16.3971 46.699 16.6955 46.0779 16.8904C45.4567 17.0853 44.8416 17.1827 44.2327 17.1827ZM57.84 17.0913C57.3407 17.0913 56.9631 16.8112 56.7073 16.2509L52.1947 5.30749C52.1582 5.21005 52.1399 5.10652 52.1399 4.9969C52.1399 4.75331 52.213 4.55234 52.3592 4.39401C52.5053 4.23567 52.7063 4.1565 52.9621 4.1565C53.3275 4.1565 53.5893 4.34529 53.7477 4.72286L58.041 15.4288L62.3344 4.72286C62.4927 4.34529 62.7546 4.1565 63.1199 4.1565C63.3757 4.1565 63.5767 4.23567 63.7228 4.39401C63.869 4.55234 63.9421 4.75331 63.9421 4.9969C63.9421 5.10652 63.9238 5.21005 63.8873 5.30749L59.3747 16.2509C59.1189 16.8112 58.7413 17.0913 58.242 17.0913H57.84ZM67.529 17.0913C67.2976 17.0913 67.1028 17.0122 66.9444 16.8538C66.7861 16.6955 66.7069 16.5006 66.7069 16.2692V4.9969C66.7069 4.76549 66.7861 4.57061 66.9444 4.41228C67.1028 4.24176 67.2976 4.1565 67.529 4.1565C67.7605 4.1565 67.9553 4.24176 68.1137 4.41228C68.2842 4.57061 68.3694 4.76549 68.3694 4.9969V16.2692C68.3694 16.5006 68.2842 16.6955 68.1137 16.8538C67.9553 17.0122 67.7605 17.0913 67.529 17.0913Z"/>
+</defs>
+</svg></a>
+      <div class="links">
+        <a href="#curriculum">Curriculum</a><a href="#testimonials">Testimonials</a><a href="#certificate">Certificate</a><a href="#pricing">Pricing</a><a href="#faq">FAQ</a>
+      </div>
+      <div class="cta">
+        <a class="btn out" href="#syllabus">Download Syllabus</a>
+        <a class="btn fill" href="#syllabus">Enroll now</a>
+      </div>
+    <button class="burger" id="burger" type="button" aria-label="Menu" aria-expanded="false" aria-controls="mmenu"><span></span><span></span><span></span></button></nav></div><div class="mmenu" id="mmenu" hidden><a href="#curriculum">Curriculum</a><a href="#testimonials">Testimonials</a><a href="#certificate">Certificate</a><a href="#pricing">Pricing</a><a href="#faq">FAQ</a><a class="mm-cta" href="#syllabus">Enroll now</a></div></div>
+<header class="hero">
+
+
+  <div class="wrap">
+    
+
+    <div class="content">
+      <p class="eyebrow">IITM Pravartak Certification</p>
+      <h1>Data Science &amp; Gen AI Program</h1>
+      <p class="sub">A practitioner-led programme by HCL GUVI, co-certified by IITM Pravartak.</p>
+      <div class="actions">
+        <a class="btn fill" href="#syllabus">Download Syllabus
+          <svg viewBox="0 0 16 16" fill="none" stroke="#01000A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+        </a>
+        <a class="btn out" href="#syllabus" style="min-width:192.5px">Enroll Now</a>
+        <a class="btn txt" href="#know-more">Know More</a>
+      </div>
+      <div class="stats">
+        <span>6 months</span><span>Online Classes</span><span class="two">3 Languages<small>English, Tamil &amp; Hindi</small></span>
+      </div>
+    </div>
+  </div>
+
+</header>
+<section class="mh" aria-label="Program overview">
+  <div class="mh-in">
+    <p class="mh-eb">IITM Pravartak Certification</p>
+    <h1 class="mh-h1">Data Science &amp; Gen AI Program</h1>
+    <p class="mh-sub">Master Data Science, ML, Deep Learning &amp; Gen AI, designed for professionals.</p>
+    <div class="mh-row"><span>6 months</span><span>Online Classes</span></div>
+    <div class="mh-lang"><b>3 Languages</b><span>English, Tamil &amp; Hindi</span></div>
+    <div class="mh-btns"><a class="b1" href="#syllabus">Enroll Now</a><a class="b2" href="#syllabus">Download Syllabus</a><a class="b3" href="#pricing">Fees &amp; EMI</a></div>
+  </div>
+  <div class="mh-vis">
+    <img loading="lazy" decoding="async" alt="" src="assets/9980d2f621.webp">
+    <div class="mh-st"><div><b>4.5M+</b><span>Learners Upskilled</span></div><div><b>1000+</b><span>Hiring Partners</span></div></div>
+  </div>
+</section>
+
+
+<section class="s2" aria-labelledby="why-title">
+  <div class="s2-head">
+    <p>Hear from our CEO</p>
+    <h2 id="why-title">Why Data Science &amp; Gen AI in 2026?</h2>
+  </div>
+  <div class="band">
+    <div class="cards">
+      <div class="ceo">
+        <div class="dash"></div>
+        <div class="who">
+          <b>Arunprakash M</b>
+          <span>CEO &amp; Co-Founder, HCL GUVI</span>
+          <p>A practitioner-led programme by HCL GUVI, co-certified by IITM Pravartak.</p>
+        </div>
+      </div>
+      <div class="lead" id="syllabus">
+        <h3>Get certified by IITM Pravartak</h3>
+        <form onsubmit="return false">
+          <div class="fields">
+            <input type="text" placeholder="Name" aria-label="Name" autocomplete="name" required>
+            <input type="email" placeholder="Email Address" aria-label="Email Address" autocomplete="email" required>
+            <div class="cc" aria-hidden="true"><span class="flag"></span>
+              <svg viewBox="0 0 16 16" fill="none" stroke="#130F26" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6.5l4 4 4-4"/></svg></div>
+            <input class="ph" type="tel" placeholder="Mobile Number" aria-label="Mobile Number (India, +91)" autocomplete="tel-national" required>
+            <select aria-label="Current Profile" required><option value="" selected disabled hidden>Current Profile</option><option>Student</option><option>Working professional</option><option>Career break</option></select>
+            <select aria-label="Educational Qualification" required><option value="" selected disabled hidden>Educational Qualification</option><option>Diploma</option><option>Bachelor's degree</option><option>Master's degree</option><option>Other</option></select>
+            <select aria-label="Language of Speaking" required><option value="" selected disabled hidden>Language of Speaking</option><option>English</option><option>Tamil</option><option>Hindi</option></select>
+          </div>
+          <div class="cpn">
+            <p class="cpn-t" id="cpnT">Have a Coupon code? <button type="button" id="cpnOpen">Redeem</button></p>
+            <div class="cpn-row" id="cpnRow" hidden>
+              <input type="text" id="cpnIn" placeholder="Coupon Code" aria-label="Coupon Code" autocomplete="off">
+              <button type="button" class="cpn-x" id="cpnCancel">Cancel</button>
+              <button type="button" class="cpn-go" id="cpnGo">Redeem</button>
+            </div>
+          </div>
+          <div>
+            <button class="submit" type="submit">Apply Now</button>
+            <p class="consent">By registering, I agree to be contacted via phone, SMS, or email for offers &amp; products, even if I am on a DNC/NDNC list.</p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="metrics">
+    <div><b>6 Months</b><span>Weekend &amp; Weekday</span></div>
+    <div><b>1:1</b><span>Mentor Support</span></div>
+    <div><b>Placement Support</b><span>with mock interviews</span></div>
+    <div><b>10+</b><span>Projects</span></div>
+  </div>
+  <div class="s2-end"></div>
+</section>
+
+<section class="s3" aria-labelledby="alumni-title">
+  <div class="s3-streak"></div><div class="s3-glow"></div>
+  <div class="s2-head"><p>Transition stories</p><h2 id="alumni-title">Our Alumni Journeys</h2></div>
+  <div class="car"><div class="track" id="track">
+<article class="sc"><div class="in"><div class="pic"><img loading="lazy" decoding="async" src="assets/034629a90d.webp" alt="Mounica" width="282" height="250"></div><span class="batch">2026 Batch</span>
+<div class="dash"></div><div class="nm"><b>Mounica</b><span>BI Analyst<svg class="chev" viewBox="0 0 12 12" aria-hidden="true"><path d="M1 0v12l5-6z" fill="#fff" opacity=".34"/><path d="M6 0v12l5-6z" fill="#fff" opacity=".9"/></svg>Jr. AI ML Engineer</span></div><span class="co" aria-label="ever-quint">ever-quint</span></div></article>
+<article class="sc"><div class="in"><div class="pic"><img loading="lazy" decoding="async" src="assets/c51d54402d.webp" alt="Mohd Ishtiyaque" width="282" height="250"></div><span class="batch">2022 Batch</span>
+<div class="dash"></div><div class="nm"><b>Mohd Ishtiyaque</b><span>Teacher<svg class="chev" viewBox="0 0 12 12" aria-hidden="true"><path d="M1 0v12l5-6z" fill="#fff" opacity=".34"/><path d="M6 0v12l5-6z" fill="#fff" opacity=".9"/></svg>Senior Analyst</span></div><span class="co ey" aria-label="EY"><i></i><b>EY</b></span><span class="pill">Teaching → Tech</span></div></article>
+<article class="sc"><div class="in"><div class="pic"><img loading="lazy" decoding="async" src="assets/d97814bbfc.webp" alt="Sutharsan C" width="282" height="250"></div><span class="batch">2026 Batch</span>
+<div class="dash"></div><div class="nm"><b>Sutharsan C</b><span>Test Exec<svg class="chev" viewBox="0 0 12 12" aria-hidden="true"><path d="M1 0v12l5-6z" fill="#fff" opacity=".34"/><path d="M6 0v12l5-6z" fill="#fff" opacity=".9"/></svg>Gen AI Developer</span></div><span class="pill">35% Salary Hike</span></div></article>
+<article class="sc"><div class="in"><div class="pic"><img loading="lazy" decoding="async" src="assets/0498d15b92.webp" alt="Karthikeyan" width="282" height="250"></div><span class="batch">2021 Batch</span>
+<div class="dash"></div><div class="nm"><b>Karthikeyan</b><span>Mech Engineer<svg class="chev" viewBox="0 0 12 12" aria-hidden="true"><path d="M1 0v12l5-6z" fill="#fff" opacity=".34"/><path d="M6 0v12l5-6z" fill="#fff" opacity=".9"/></svg>NLP Engineer</span></div><span class="pill">5X Salary Growth</span></div></article>
+<article class="sc"><div class="in"><div class="pic"><div class="ph" role="img" aria-label="Mahaalakshmi B">MB</div></div><span class="batch">2026 Batch</span>
+<div class="dash"></div><div class="nm"><b>Mahaalakshmi B</b><span>Tech<svg class="chev" viewBox="0 0 12 12" aria-hidden="true"><path d="M1 0v12l5-6z" fill="#fff" opacity=".34"/><path d="M6 0v12l5-6z" fill="#fff" opacity=".9"/></svg>Jr. AI ML Engineer</span></div></div></article>
+<article class="sc"><div class="in"><div class="pic"><div class="ph" role="img" aria-label="Siranjeevi">S</div></div><span class="batch">2025 Batch</span>
+<div class="dash"></div><div class="nm"><b>Siranjeevi</b><span>Fresher<svg class="chev" viewBox="0 0 12 12" aria-hidden="true"><path d="M1 0v12l5-6z" fill="#fff" opacity=".34"/><path d="M6 0v12l5-6z" fill="#fff" opacity=".9"/></svg>AI Engineer</span></div></div></article>
+<article class="sc"><div class="in"><div class="pic"><div class="ph" role="img" aria-label="Amruthavarshini M">AM</div></div><span class="batch">2026 Batch</span>
+<div class="dash"></div><div class="nm"><b>Amruthavarshini M</b><span>Fresher<svg class="chev" viewBox="0 0 12 12" aria-hidden="true"><path d="M1 0v12l5-6z" fill="#fff" opacity=".34"/><path d="M6 0v12l5-6z" fill="#fff" opacity=".9"/></svg>Data Analyst</span></div></div></article>
+  </div></div>
+  <div class="dots" id="dots"><button type="button" aria-label="Go to stories 1" class=on></button><button type="button" aria-label="Go to stories 2"></button><button type="button" aria-label="Go to stories 3"></button><button type="button" aria-label="Go to stories 4"></button><button type="button" aria-label="Go to stories 5"></button><button type="button" aria-label="Go to stories 6"></button><button type="button" aria-label="Go to stories 7"></button></div>
+  <div class="rule"></div>
+  <div class="s2-head"><p style="font-size:16px">Top Companies</p><h2>Our Students Work at</h2></div>
+  <div class="lg">
+    <div class="cell"></div>
+    <svg class="mk" style="left:75px" width="84" height="64" viewBox="0 0 84 64" fill="none" stroke="currentColor" stroke-width="2.4" aria-label="Zoho" role="img"><rect x="2" y="8" width="22" height="24" rx="5" transform="rotate(-8 13 20)"/><rect x="22" y="4" width="22" height="26" rx="5" transform="rotate(8 33 17)"/><rect x="40" y="6" width="22" height="26" rx="5" transform="rotate(-6 51 19)"/><rect x="60" y="8" width="22" height="24" rx="5"/><text x="42" y="58" text-anchor="middle" font-size="7" letter-spacing="5" fill="currentColor" stroke="none" font-family="Inter,sans-serif">ZOHO</text></svg>
+    <svg class="mk" style="left:225px" width="90" height="40" viewBox="0 0 90 40" aria-label="Amazon" role="img"><text x="45" y="24" text-anchor="middle" font-size="27" font-weight="700" fill="currentColor" font-family="Sora,Inter,sans-serif" letter-spacing="-1">amazon</text><path d="M18 30c16 7 40 7 54-2" stroke="currentColor" stroke-width="2.6" fill="none" stroke-linecap="round"/></svg>
+    <img loading="lazy" decoding="async" src="assets/8c0a798608.webp" alt="Hiring companies: Lenovo, Siemens, Comcast, Infosys, Justdial, Thoughtworks, Virtusa, TCS, Wipro, IBM, HCL, Cognizant, Capgemini, Tech Mahindra, PayPal, Accenture" width="844" height="248">
+  </div>
+  <div class="s2-end"></div>
+</section>
+<script>
+(function(){
+  var t=document.getElementById('track'),d=[].slice.call(document.querySelectorAll('#dots button')),n=d.length;
+  function max(){return t.scrollWidth-t.clientWidth}
+  function sync(){var i=max()>0?Math.round(t.scrollLeft/max()*(n-1)):0;d.forEach(function(b,k){b.classList.toggle('on',k===i)})}
+  t.addEventListener('scroll',sync,{passive:true});
+  d.forEach(function(b,k){b.addEventListener('click',function(){t.scrollTo({left:max()*k/(n-1)})})});
+})();
+</script>
+
+<section class="s4" aria-labelledby="who-title">
+  <div class="s2-head"><p>Program eligibility</p><h2 id="who-title">Who is our Program for?</h2></div>
+  <div class="els">
+<article class="el"><h3>Non-IT Professionals</h3>
+<div class="stat"><b>60%</b><span>of our alumni are from Non IT backgrounds</span></div>
+<p class="pts"><span>No Coding Background Needed: Start with the fundamentals and build your coding skills from the ground up.</span><span>Built for Career Switching: Gain job-ready skills, build real-world projects, and get 1-on-1 mentorship to transition into tech.</span></p>
+<div class="fig"><img loading="lazy" decoding="async" src="assets/9749aeae80.webp" alt="Karthikeyan" style="top:0px"><span class="tag">5X Salary Growth</span><div class="fade"></div><div class="dl"></div>
+<div class="who"><b>Karthikeyan</b><span><i>Mech Engineer</i><svg class="chev" viewBox="0 0 12 12" aria-hidden="true"><path d="M0 0v12l6-6z" fill="#353535" opacity=".34"/><path d="M6 0v12l6-6z" fill="#353535" opacity=".9"/></svg><em>NLP Engineer</em></span></div></div></article>
+<article class="el"><h3>IT Professionals</h3>
+<div class="stat"><b>3X</b><span>higher salary potential with Data Science upskilling</span></div>
+<p class="pts"><span>Expand Your Expertise: Build on your technical background with Machine Learning, Data Science, and GenAI.</span><span>Advance Your Career: Apply your skills to real-world projects with 1-on-1 mentorship and become ready for emerging tech roles.</span></p>
+<div class="fig"><img loading="lazy" decoding="async" src="assets/36e8c2b844.webp" alt="Chinmay Manoj Bhatt" style="top:0px"><div class="fade"></div><div class="dl"></div>
+<div class="who"><b>Chinmay Manoj Bhatt</b><span><i>Low Growth IT Role</i><svg class="chev" viewBox="0 0 12 12" aria-hidden="true"><path d="M0 0v12l6-6z" fill="#353535" opacity=".34"/><path d="M6 0v12l6-6z" fill="#353535" opacity=".9"/></svg><em>Associate AI Engineer</em></span></div></div></article>
+<article class="el"><h3>Freshers & Students</h3>
+<div class="stat"><b>8 LPA</b><span>average starting salary for freshers</span></div>
+<p class="pts"><span>Build a Strong Foundation: Learn Python, Data Science, and AI from the fundamentals.</span><span>Get Career-Ready: Apply your skills through real-world projects and build a portfolio that showcases your capabilities.</span></p>
+<div class="fig"><img loading="lazy" decoding="async" src="assets/c20593301e.webp" alt="Chandreyi Ghosh" style="top:-9px"><div class="fade"></div><div class="dl"></div>
+<div class="who"><b>Chandreyi Ghosh</b><span><i>Fresher</i><svg class="chev" viewBox="0 0 12 12" aria-hidden="true"><path d="M0 0v12l6-6z" fill="#353535" opacity=".34"/><path d="M6 0v12l6-6z" fill="#353535" opacity=".9"/></svg><em>AI ML Analyst</em></span></div></div></article>
+  </div>
+  <div class="hr"></div>
+  <div class="s2-head" style="padding-bottom:0"><p>Curriculum</p><h2>What’s Inside our Program?</h2></div>
+  <div class="mods" id="curriculum">
+<div class="acc open"><button class="hd" type="button" aria-expanded="true" aria-controls="mod1"><span class="tx"><small>Module 1</small><span>Introduction to Python</span></span><span class="hr2">12hrs</span><svg class="ch" viewBox="0 0 16 16" fill="none" stroke="#687382" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3.5 6l4.5 4.5L12.5 6"/></svg></button>
+<div class="pn" id="mod1" role="region" aria-label="Module 1 topics"><div class="pi"><div class="bx"><ul><li>Learn Python fundamentals including variables, operators, loops, functions, and data structures</li><li>Work with lists, tuples, sets, and dictionaries for data processing tasks</li><li>Understand object-oriented programming concepts like classes, inheritance, and polymorphism</li><li>Practice file handling, exception handling, and intermediate Python concepts</li><li>Work with APIs and JSON data for real-world integrations</li><li>Build coding confidence using Jupyter Notebook, VS Code, and Google Colab</li><li>Develop strong programming foundations required for Data Science and AI workflows</li></ul></div></div></div></div>
+<div class="acc"><button class="hd" type="button" aria-expanded="false" aria-controls="mod2"><span class="tx"><small>Module 2</small><span>Data Analysis with Pandas &amp; SQL</span></span><span class="hr2">12hrs</span><svg class="ch" viewBox="0 0 16 16" fill="none" stroke="#687382" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3.5 6l4.5 4.5L12.5 6"/></svg></button>
+<div class="pn" id="mod2" role="region" aria-label="Module 2 topics"><div class="pi"><div class="bx"><ul><li>Clean, filter, and reshape datasets using NumPy and Pandas</li><li>Write SQL queries with joins, aggregations, and subqueries</li><li>Connect Python to databases for data extraction workflows</li><li>Build charts and dashboards with Matplotlib and Seaborn</li><li>Perform exploratory data analysis on real-world datasets</li></ul></div></div></div></div>
+<div class="acc"><button class="hd" type="button" aria-expanded="false" aria-controls="mod3"><span class="tx"><small>Module 3</small><span>Statistics for Data Science</span></span><span class="hr2">12hrs</span><svg class="ch" viewBox="0 0 16 16" fill="none" stroke="#687382" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3.5 6l4.5 4.5L12.5 6"/></svg></button>
+<div class="pn" id="mod3" role="region" aria-label="Module 3 topics"><div class="pi"><div class="bx"><ul><li>Understand descriptive statistics, distributions, and probability</li><li>Apply hypothesis testing and confidence intervals to business questions</li><li>Measure relationships using correlation and regression</li><li>Design and interpret A/B tests</li></ul></div></div></div></div>
+<div class="acc"><button class="hd" type="button" aria-expanded="false" aria-controls="mod4"><span class="tx"><small>Module 4</small><span>Machine Learning Foundations</span></span><span class="hr2">12hrs</span><svg class="ch" viewBox="0 0 16 16" fill="none" stroke="#687382" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3.5 6l4.5 4.5L12.5 6"/></svg></button>
+<div class="pn" id="mod4" role="region" aria-label="Module 4 topics"><div class="pi"><div class="bx"><ul><li>Build supervised models for classification and regression</li><li>Evaluate models with cross-validation and the right metrics</li><li>Tune features and hyperparameters to improve performance</li><li>Use clustering and dimensionality reduction on unlabelled data</li></ul></div></div></div></div>
+<div class="acc"><button class="hd" type="button" aria-expanded="false" aria-controls="mod5"><span class="tx"><small>Module 5</small><span>Deep Learning &amp; Natural Language Processing</span></span><span class="hr2">12hrs</span><svg class="ch" viewBox="0 0 16 16" fill="none" stroke="#687382" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3.5 6l4.5 4.5L12.5 6"/></svg></button>
+<div class="pn" id="mod5" role="region" aria-label="Module 5 topics"><div class="pi"><div class="bx"><ul><li>Train neural networks with TensorFlow or PyTorch</li><li>Represent text using tokenization and embeddings</li><li>Build text classification and sentiment analysis models</li><li>Understand transformers and the attention mechanism</li></ul></div></div></div></div>
+<div class="more collapsed" id="more"><div class="acc"><button class="hd" type="button" aria-expanded="false" aria-controls="mod6"><span class="tx"><small>Module 6</small><span>Generative AI &amp; LLM Applications</span></span><span class="hr2">12hrs</span><svg class="ch" viewBox="0 0 16 16" fill="none" stroke="#687382" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3.5 6l4.5 4.5L12.5 6"/></svg></button>
+<div class="pn" id="mod6" role="region" aria-label="Module 6 topics"><div class="pi"><div class="bx"><ul><li>Work with large language models through APIs</li><li>Write effective prompts and get structured outputs</li><li>Build retrieval-augmented generation (RAG) apps with vector databases</li><li>Create AI agents and deploy your applications</li></ul></div></div></div></div><div class="ov"></div>
+<div class="act"><button class="all" type="button" id="moreBtn" aria-expanded="false"><span>View all modules</span><svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="#000" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3.5 6l4.5 4.5L12.5 6"/></svg></button>
+<a class="submit" href="#syllabus">Download Syllabus</a></div></div>
+</div>
+</section>
+
+<section class="s5" aria-labelledby="proj-title">
+  <div class="s2-head"><p>10+ Projects</p><h2 id="proj-title">Industry-Ready Projects</h2></div>
+  <div class="pcar"><div class="ptrack" id="ptrack">
+<article class="prc"><div class="prn"><div class="prt"><h3>Smart Movie Recommendation System</h3><p>Build recommendation engines using collaborative and content-based filtering techniques to improve personalization.</p></div><div class="prd"></div><img loading="lazy" decoding="async" class="pil" src="assets/78eef5e3ea.webp" alt="" aria-hidden="true" width="215" height="124" style="left:34.5px;top:213px"></div></article>
+<article class="prc"><div class="prn"><div class="prt"><h3>Crop Disease Detection System</h3><p>Build computer vision applications that identify crop diseases from leaf images using CNNs and image classification models</p></div><div class="prd"></div><img loading="lazy" decoding="async" class="pil" src="assets/54570ce9d6.svg" alt="" aria-hidden="true" width="277" height="227" style="left:7px;top:150px"></div></article>
+<article class="prc"><div class="prn"><div class="prt"><h3>AI-Powered Data Analysis</h3><p>Develop intelligent analytics applications that can chat with CSV files and databases, automate insight generation.</p></div><div class="prd"></div><img loading="lazy" decoding="async" class="pil" src="assets/7cd5bb7f66.webp" alt="" aria-hidden="true" width="284" height="175" style="left:0px;top:189px"></div></article>
+<article class="prc"><div class="prn"><div class="prt"><h3>Retail Sales Analysis &amp; Business Insights System</h3><p>Build data-driven analytics systems to identify revenue trends, customer behavior, and actionable business insights using real-world retail datasets.</p></div><div class="prd"></div><img loading="lazy" decoding="async" class="pil" src="assets/0cbb0afff1.webp" alt="" aria-hidden="true" width="241" height="197" style="left:21.5px;top:172px"></div></article>
+<article class="prc"><div class="prn"><div class="prt"><h3>Customer Churn Prediction System</h3><p>Develop machine learning models that predict customer drop-offs and improve retention strategies using classification algorithms and feature engineering.</p></div><div class="prd"></div><img loading="lazy" decoding="async" class="pil" src="assets/017531ec3c.webp" alt="" aria-hidden="true" width="230" height="178" style="left:27px;top:199px"></div></article>
+<article class="prc"><div class="prn"><div class="prt"><h3>Customer Segmentation Engine</h3><p>Create intelligent customer segmentation systems using clustering techniques for personalized marketing and targeted campaigns.</p></div><div class="prd"></div><img loading="lazy" decoding="async" class="pil" src="assets/6c2779fc77.webp" alt="" aria-hidden="true" width="274" height="175" style="left:5px;top:202px"></div></article>
+<article class="prc"><div class="prn"><div class="prt"><h3>AI-Powered Sentiment Analysis System</h3><p>Analyze customer reviews and social media conversations using NLP techniques, TF-IDF, and machine learning models.</p></div><div class="prd"></div><img loading="lazy" decoding="async" class="pil" src="assets/9d4f910bd1.webp" alt="" aria-hidden="true" width="284" height="121" style="left:0px;top:217px"></div></article>
+<article class="prc"><div class="prn"><div class="prt"><h3>Disease Prediction Using Deep Learning</h3><p>Develop deep learning models that assist in disease prediction and healthcare analytics using neural networks and structured medical data.</p></div><div class="prd"></div><img loading="lazy" decoding="async" class="pil" src="assets/db02b3b996.webp" alt="" aria-hidden="true" width="258" height="167" style="left:26px;top:210px"></div></article>
+<article class="prc"><div class="prn"><div class="prt"><h3>Fraud Detection &amp; Risk Scoring System</h3><p>Create fraud detection pipelines using anomaly detection, machine learning, and real-time prediction systems for FinTech applications.</p></div><div class="prd"></div><img loading="lazy" decoding="async" class="pil" src="assets/f3b64474df.webp" alt="" aria-hidden="true" width="263" height="182" style="left:21px;top:195px"></div></article>
+<article class="prc"><div class="prn"><div class="prt"><h3>RAG-Based Document Intelligence Assistant</h3><p>Build document intelligence systems that retrieve relevant information from PDFs and reports using RAG pipelines and vector databases.</p></div><div class="prd"></div><img loading="lazy" decoding="async" class="pil" src="assets/3cd0473101.svg" alt="" aria-hidden="true" width="284" height="173" style="left:0px;top:194px"></div></article>
+<article class="prc"><div class="prn"><div class="prt"><h3>End-to-End AI Decision Intelligence Platform</h3><p>Create a complete AI-powered decision support platform combining analytics, machine learning, and Generative AI workflows across multiple domains.</p></div><div class="prd"></div><img loading="lazy" decoding="async" class="pil" src="assets/fc107926c7.webp" alt="" aria-hidden="true" width="263" height="184" style="left:10.5px;top:193px"></div></article>
+  </div></div>
+  <div class="dots" id="pdots"><button type="button" aria-label="Go to projects 1" class=on></button><button type="button" aria-label="Go to projects 2"></button><button type="button" aria-label="Go to projects 3"></button><button type="button" aria-label="Go to projects 4"></button><button type="button" aria-label="Go to projects 5"></button><button type="button" aria-label="Go to projects 6"></button><button type="button" aria-label="Go to projects 7"></button></div>
+  <div class="endr"></div>
+</section>
+<section class="s6" aria-labelledby="tools-title">
+  <div class="s2-head"><p>Your Tech Stack</p><h2 id="tools-title">Tools you’ll Master</h2></div>
+  <div class="tgrid">
+<div class="tl"><div class="ic"><img loading="lazy" decoding="async" alt="" src="assets/07fce83a7d.webp"></div><p>Python</p></div>
+<div class="tl"><div class="ic"><img loading="lazy" decoding="async" alt="" src="assets/9d3aa0657c.webp"></div><p>NumPy</p></div>
+<div class="tl"><div class="ic"><img loading="lazy" decoding="async" alt="" src="assets/9b312de326.webp"></div><p>Pandas</p></div>
+<div class="tl"><div class="ic"><img loading="lazy" decoding="async" alt="" src="assets/cb82a74f85.webp"></div><p>Seaborn</p></div>
+<div class="tl"><div class="ic"><img loading="lazy" decoding="async" alt="" src="assets/c4db995826.webp"></div><p>AWS</p></div>
+<div class="tl"><div class="ic"><img loading="lazy" decoding="async" alt="" src="assets/4836fc615c.webp"></div><p>Docker</p></div>
+<div class="tl"><div class="ic"><img loading="lazy" decoding="async" alt="" src="assets/eda2d0b508.webp"></div><p>Airflow</p></div>
+<div class="tl"><div class="ic"><img loading="lazy" decoding="async" alt="" src="assets/f5f05ef815.webp"></div><p>Langchain</p></div>
+<div class="tl"><div class="ic"><img loading="lazy" decoding="async" alt="" src="assets/71adc9d1ef.webp"></div><p>Open AI</p></div>
+<div class="tl"><div class="ic"><img loading="lazy" decoding="async" alt="" src="assets/26ffb1df00.webp"></div><p>N8N</p></div>
+<div class="tl"><div class="ic"><img loading="lazy" decoding="async" alt="" src="assets/9f295a40c9.webp"></div><p>MySQL</p></div>
+<div class="tl"><div class="ic"><img loading="lazy" decoding="async" alt="" src="assets/0f5a9eb13c.webp"></div><p>Gemini</p></div>
+  </div>
+  <div class="endr"></div>
+</section>
+<section class="s7" aria-labelledby="peek-title">
+  <div class="s2-head"><p>Session Preview</p><h2 id="peek-title">Take a Peek at a Real Live Session</h2></div>
+  <div class="vid">
+    <img loading="lazy" decoding="async" alt="Instructor teaching Introduction to Python" src="assets/19a42eb964.webp">
+    <button class="play" type="button" aria-label="Play session preview"><svg viewBox="0 0 80 80" fill="none" stroke="#fff" stroke-width="2.3"><circle cx="40" cy="40" r="30"/><path d="M33 28v24l20-12z" fill="#fff" stroke="none"/></svg></button>
+    <div class="vbar"><small>Session of Module 1</small><b>Introduction to Python</b></div>
+  </div>
+  <p class="vcap">Watch a class preview and experience learning with HCL GUVI.</p>
+</section>
+<section class="s8" aria-labelledby="genai-title">
+  <div class="s2-head"><p>Gen AI Integration</p><h2 id="genai-title">Learn Data Science for the AI Era</h2></div>
+  <div class="gcards">
+    <article class="gc"><h3>GenAI Tools Built In</h3><p>Master ChatGPT, Copilot, and LLMs alongside Python and SQL to code faster and analyze smarter.</p><img loading="lazy" decoding="async" class="g1" alt="" src="assets/8f03c358df.webp"></article>
+    <article class="gc"><h3>Next-Gen Projects</h3><p>Build end-to-end Machine Learning, NLP, and Generative AI applications for your portfolio.</p><img loading="lazy" decoding="async" class="g2" alt="" src="assets/7565e9fa78.webp"></article>
+    <article class="gc"><h3>Modern Tech Stack</h3><p>Learn prompt engineering, vector databases, and fine-tuning—the exact skills 2026 tech employers demand.</p><img loading="lazy" decoding="async" class="g3" alt="" src="assets/1ee5d232a0.webp"></article>
+  </div>
+</section>
+<section class="s9" aria-labelledby="place-title">
+  <div class="s2-head"><p>Placement Assistance</p><h2 id="place-title">Dedicated Placement Support</h2></div>
+  <div class="pcards">
+    <article class="pc"><img loading="lazy" decoding="async" alt="" src="assets/4226911c24.webp"><h3>Mock Interviews</h3><p>Practice personalized interview scenarios</p></article>
+    <article class="pc"><img loading="lazy" decoding="async" alt="" src="assets/7dcd20efa6.webp"><h3>Resume Review</h3><p>Expert feedback on resumes.</p></article>
+    <article class="pc"><img loading="lazy" decoding="async" alt="" src="assets/5c53ac4c5d.webp"><h3>1:1 Mentorship</h3><p>Direct guidance from mentors</p></article>
+    <article class="pc"><img loading="lazy" decoding="async" alt="" src="assets/14c96db268.webp"><h3>Job Referrals</h3><p>Direct hiring opportunity access</p></article>
+  </div>
+</section>
+<section class="s10" aria-labelledby="hcl-title">
+  <div class="s10-img"><img loading="lazy" decoding="async" alt="" src="assets/74dc48e716.webp"></div>
+  <div class="s10-top"></div><div class="s10-bot"></div>
+  <div class="s2-head"><p>Five decades of legacy</p><h2 id="hcl-title">Trust of HCL Group</h2></div>
+  <div class="s10-txt"><b>An HCL Group Company</b><span>India’s Only Industry-Led EdTech Organization</span><p>A practitioner-led programme by HCL GUVI, co-certified by IITM Pravartak.</p></div>
+</section>
+<section class="s11" aria-labelledby="dual-title">
+  <div class="s2-head"><p>Dual certification</p><h2 id="dual-title">A Certificate that Opens Doors</h2></div>
+  <div class="s11-cols">
+    <div class="s11-col"><h3>IITM Pravartak Certification</h3><p>A premier Technology Innovation Hub under India’s DST &amp; NM-ICPS mission.</p><img loading="lazy" decoding="async" alt="Sample IITM Pravartak certificate of completion" width="417" height="295" src="assets/6e563e9e51.webp"></div>
+    <div class="s11-col"><h3>HCL GUVI Certification</h3><p>An HCL Group company, incubated by IIT Madras and IIM Ahmedabad.</p><img loading="lazy" decoding="async" alt="Sample HCL GUVI certificate of completion" width="425" height="300" src="assets/6c7ad3d2ad.webp"></div>
+  </div>
+  <div class="s11-hr"></div>
+  <div class="s11-b">
+    <div class="s2-head"><p>Trusted by your favourite creators</p><h2>Recommended by your Fav Creators &amp; Influencers</h2></div>
+    <div class="s11-cards">
+      <div class="cr"><img loading="lazy" decoding="async" alt="" src="assets/b3e0e27d6e.webp"><div class="cr-t"><b>Open Letter</b><span>1.3 M+ Subscribers</span></div></div>
+      <div class="cr"><img loading="lazy" decoding="async" alt="" src="assets/76be90b871.webp"><div class="cr-t"><b>Theneer Idaivelai</b><span>3.7 M+ Subscribers</span></div></div>
+    </div>
+  </div>
+</section>
+
+
+
+
+<script>
+(function(){
+  var t=document.getElementById('ptrack'),d=[].slice.call(document.querySelectorAll('#pdots button')),n=d.length;
+  function max(){return t.scrollWidth-t.clientWidth}
+  function sync(){var i=max()>0?Math.round(t.scrollLeft/max()*(n-1)):0;d.forEach(function(b,k){b.classList.toggle('on',k===i)})}
+  t.addEventListener('scroll',sync,{passive:true});
+  d.forEach(function(b,k){b.addEventListener('click',function(){t.scrollTo({left:max()*k/(n-1)})})});
+})();
+</script>
+<script>
+(function(){
+  var box=document.getElementById('curriculum');
+  box.addEventListener('click',function(e){
+    var b=e.target.closest('.hd'); if(!b) return;
+    var a=b.parentNode, o=!a.classList.contains('open');
+    a.classList.toggle('open',o); b.setAttribute('aria-expanded',o);
+  });
+  var m=document.getElementById('more'),mb=document.getElementById('moreBtn');
+  mb.addEventListener('click',function(){
+    var c=m.classList.toggle('collapsed');
+    mb.setAttribute('aria-expanded',!c);
+    mb.firstChild.textContent=c?'View all modules':'Show fewer modules';
+  });
+})();
+</script>
+<script>(function(){var t=document.getElementById("topbar");function f(){t.classList.toggle("stuck",window.scrollY>8)}f();addEventListener("scroll",f,{passive:true})})();</script>
+<script>(function(){var o=document.getElementById("cpnOpen"),t=document.getElementById("cpnT"),r=document.getElementById("cpnRow"),i=document.getElementById("cpnIn");
+o.onclick=function(){t.hidden=true;r.hidden=false;i.focus()};
+document.getElementById("cpnCancel").onclick=function(){i.value="";r.hidden=true;t.hidden=false};})();</script>
+
+
+<script>(function(){var b=document.getElementById("burger"),m=document.getElementById("mmenu");if(!b||!m)return;function t(o){b.setAttribute("aria-expanded",o);m.hidden=!o}b.addEventListener("click",function(){t(m.hidden)});m.addEventListener("click",function(e){if(e.target.closest("a"))t(false)});addEventListener("keydown",function(e){if(e.key==="Escape")t(false)})})();</script>
+
+</body>
+</html>
